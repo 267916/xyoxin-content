@@ -1,0 +1,8 @@
+{
+  "continents": ["中元大陆", "沧溟大陆", "古墟大陆"],
+  "worlds": [
+    { "id": "renjie", "name": "人界", "planes": "multi", "desc": "多个界面。本作玩家所在界面 = 中元 + 沧溟 + 古墟三大陆，灵气充沛、资源丰富、强者众多" },
+    { "id": "lingjie", "name": "灵界", "planes": "multi", "desc": "更高级世界，人界修士飞升而来" },
+    { "id": "xianjie", "name": "仙界", "planes": "single", "desc": "最高世界，唯一无多界面" }
+  ]
+}

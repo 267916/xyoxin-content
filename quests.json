@@ -1,0 +1,40 @@
+{
+  "quests": [
+    {
+      "id": "quest_pass_cm",
+      "name": "密信之托",
+      "npc": "中元城坊市·王掌柜",
+      "continent": "中元大陆",
+      "targetContinent": "沧溟大陆",
+      "desc": "将一封密信送往沧溟大陆·沧溟城海市的林家商号，凭回执换得跨洲通行文书。",
+      "reward": { "spiritStones": 80, "item": "tongxing_wenshu" }
+    },
+    {
+      "id": "quest_pass_gx",
+      "name": "古碑拓片",
+      "npc": "河洛坊·苏散人",
+      "continent": "中元大陆",
+      "targetContinent": "古墟大陆",
+      "desc": "前往古墟大陆·荒古遗迹外围，拓印上古石碑铭文带回，可得跨洲通行文书。",
+      "reward": { "spiritStones": 100, "item": "tongxing_wenshu" }
+    },
+    {
+      "id": "quest_cm_ling",
+      "name": "鲛人之泪",
+      "npc": "沧溟城海市·蓝姬",
+      "continent": "沧溟大陆",
+      "targetContinent": "沧溟大陆",
+      "desc": "前往鲛人湾，寻得一颗鲛人之泪带回海市，可获重谢。",
+      "reward": { "spiritStones": 120, "item": "huichun_dan" }
+    },
+    {
+      "id": "quest_gx_totem",
+      "name": "图腾之契",
+      "npc": "图腾圣城·大祭司",
+      "continent": "古墟大陆",
+      "targetContinent": "古墟大陆",
+      "desc": "在蛮荒荒野击败一头荒兽，取其精血交予大祭司，换取功法残卷。",
+      "reward": { "spiritStones": 150, "item": "gongfa_dayan" }
+    }
+  ]
+}

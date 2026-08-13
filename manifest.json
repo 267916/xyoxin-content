@@ -1,0 +1,191 @@
+{
+    "updatedAt":  "2026-08-14",
+    "files":  {
+                  "images/sectmap_tianyan.png":  {
+                                                     "sha256":  "7745202d259806354640c02242f410b25e94835a276d9f0ba9d48d1fb1e65729",
+                                                     "size":  930111
+                                                 },
+                  "images/item_yufeng_zhou.png":  {
+                                                      "sha256":  "a6f51a5234dd5a6c304f03bc16bd6ac829b8c8da4461dffac627002c71c63ae9",
+                                                      "size":  391189
+                                                  },
+                  "images/bg_sect.png":  {
+                                             "sha256":  "f754daef0ae2375b3ba95ea4b943034baa4f2de955b74be684d240b9f2bfa71a",
+                                             "size":  491348
+                                         },
+                  "images/bg_battle.png":  {
+                                               "sha256":  "995af0f1b918ee895aa45d28b98c3c040e6cc10aa8812a0f09e148c7f2093500",
+                                               "size":  1083124
+                                           },
+                  "images/icon_realm_zhuji.png":  {
+                                                      "sha256":  "e836a4f881bfc4d30d5e8203bdbe02ec6bf3a78978d3ffc0a30755d886acafaf",
+                                                      "size":  439612
+                                                  },
+                  "dungeons.json":  {
+                                        "sha256":  "6060396d9156b6663f9f07e8c94db218380d66578d7a84228c3e27cf54a0e02c",
+                                        "size":  906
+                                    },
+                  "images/sect_taichu.png":  {
+                                                 "sha256":  "9bd1d3c9ab4aeebd4244c81442faf754524621e6889419d55282bc16f781e036",
+                                                 "size":  490332
+                                             },
+                  "realms.json":  {
+                                      "sha256":  "bb3bd6996dd4b80db6fd8ad07f6a048bd099bc2ef3d1217a010fc5481f9a225c",
+                                      "size":  764
+                                  },
+                  "images/icon_realm_yuanying.png":  {
+                                                         "sha256":  "81cb9565c5150de4c81232be78302c0b681dfc3ef14fcf147dd2d2e3ed92dda3",
+                                                         "size":  450504
+                                                     },
+                  "images/item_spirit_stone.png":  {
+                                                       "sha256":  "ae9b865946103b3190f84eaa363c4cc45048bd812b7a2ce3f1ea33ff8cc85f1d",
+                                                       "size":  712985
+                                                   },
+                  "images/sect_tianmo.png":  {
+                                                 "sha256":  "166feb83a6c6021698fa86abf4daec0e050a6a761512cb3aed30cc44c8515db9",
+                                                 "size":  779720
+                                             },
+                  "images/sectmap_youming.png":  {
+                                                     "sha256":  "a3e09110670064c0a6deb0ad10240dc2804c9e9be218d250bdfda02a1447fd77",
+                                                     "size":  729303
+                                                 },
+                  "images/sectmap_zixiao.png":  {
+                                                    "sha256":  "34d475b30d8f05f117b9d4d56eb0a2c3891a7488fce9e052b364264f262d4b4b",
+                                                    "size":  663822
+                                                },
+                  "images/item_qingfeng_sword.png":  {
+                                                         "sha256":  "bc0f6bebf058d689eb67cceb66d9cb2f824cccb582b1eba3f6cc05525c630ff4",
+                                                         "size":  385323
+                                                     },
+                  "images/icon_realm_lianqi.png":  {
+                                                       "sha256":  "352e22f98ad3cde7caaa7d1a2231f58b7fc4b237347a1ca1639fe0fba8f11248",
+                                                       "size":  298294
+                                                   },
+                  "images/beast_bear.png":  {
+                                                "sha256":  "c2b9f33722afac795b586cd002ceed1ca9bce23dd08f3d8b950bd48d12b1b501",
+                                                "size":  702309
+                                            },
+                  "continents.json":  {
+                                          "sha256":  "818e166d12b2f23f3e782a195a6defb4e101141f8925dbd727e37feff731a699",
+                                          "size":  5321
+                                      },
+                  "items.json":  {
+                                     "sha256":  "c79a3408d7c1fe2479c8e462b0e8b0b8730c68daefb07081573224c5dcdc430e",
+                                     "size":  10145
+                                 },
+                  "texts.json":  {
+                                     "sha256":  "493b660db817b6dcb3638ccd170fef16a0c2ee5d755c5ccaee06165150a440b3",
+                                     "size":  211
+                                 },
+                  "images/sectmap_yuling.png":  {
+                                                    "sha256":  "94b6d2cc5a32facb80f69103b183d9d7ab641e2691a97a633567cb3ffcf1d728",
+                                                    "size":  852520
+                                                },
+                  "images/sectmap_hanyue.png":  {
+                                                    "sha256":  "65affa47fc4e447d1b27168d4cdea0b521e45ab404065aa7202808379edc50c7",
+                                                    "size":  717760
+                                                },
+                  "images/sect_wanjian.png":  {
+                                                  "sha256":  "2072b605ccc9607cee51272a4e213025c31334bb6cc67add0e5cfcbefc3c5921",
+                                                  "size":  1006093
+                                              },
+                  "images/bg_login.png":  {
+                                              "sha256":  "2228723ac11150711ee165edfb0ee8eec062017b418a47fd2ec87a3f837c3812",
+                                              "size":  449310
+                                          },
+                  "images/bg_cultivate.png":  {
+                                                  "sha256":  "c70a42b4e7788407edb44e21181037d5b353f49e308069891dad465bc334bf97",
+                                                  "size":  743983
+                                              },
+                  "images/map_world.png":  {
+                                               "sha256":  "394b152cd6264167ffd24f4644fe6e7c266a68f12f819cccd43024e3ee1d71d2",
+                                               "size":  687204
+                                           },
+                  "images/sectmap_taichu.png":  {
+                                                    "sha256":  "6533522811ca07c9bee303df6304536a89df4d59dfd1d60ed21e4471a40dee16",
+                                                    "size":  724084
+                                                },
+                  "images/icon_realm_jiedan.png":  {
+                                                       "sha256":  "974dd62ed517a2f3b45f8eed0080d15bfb76e0717350e53be30c64429911ac75",
+                                                       "size":  387606
+                                                   },
+                  "images/beast_python.png":  {
+                                                  "sha256":  "6f24beffedc4d9e58d09c648e4af4069f7d8644d49ddb4906df0241d0392f76c",
+                                                  "size":  651832
+                                              },
+                  "worlds.json":  {
+                                      "sha256":  "9515afe084b190f725b2d2135e5f2ef2bd627ed06da3243e9e3515c37651e577",
+                                      "size":  503
+                                  },
+                  "images/sectmap_tianmo.png":  {
+                                                    "sha256":  "39e1cf6a37c488630191894686ae311ad580bcf20ca6ce73f75d0633926581a9",
+                                                    "size":  641664
+                                                },
+                  "images/bg_market.png":  {
+                                               "sha256":  "e6ec36fb5786af1a60344c28e7105f3780f257fe9cf0f68e7c40b91f7f4f78bd",
+                                               "size":  965711
+                                           },
+                  "images/sectmap_xuesha.png":  {
+                                                    "sha256":  "aff94d17c1ec0dc1c5f1ca549f65be9e7e5a1ef0592bcddac76c90ee29c3f1dc",
+                                                    "size":  761176
+                                                },
+                  "images/bg_adventure.png":  {
+                                                  "sha256":  "c7f8df0036c7d43305183cd64f412cbd1c824969fd59232aae2331c47e2a1586",
+                                                  "size":  724834
+                                              },
+                  "sects.json":  {
+                                     "sha256":  "81e151ef9045f32c33cb67d61e0edc19d75f4534c20897254523cf200199c038",
+                                     "size":  2451
+                                 },
+                  "events.json":  {
+                                      "sha256":  "4384ea96ff6f31a586ead8a903c98d608a29596bc08adc23da75490ae31315c4",
+                                      "size":  89460
+                                  },
+                  "images/beast_wolf.png":  {
+                                                "sha256":  "c3e204b8a7ba2935027b3d292afc8d3a008d8e1b162cf0cfbe93435e6afa1504",
+                                                "size":  495416
+                                            },
+                  "images/icon_realm_huashen.png":  {
+                                                        "sha256":  "2ea6b0d5c72fcda2867eb75910861ae90fd4a597ead648d6e9a41034bedbd6a2",
+                                                        "size":  482424
+                                                    },
+                  "quests.json":  {
+                                      "sha256":  "20d2f3bd0bbd9b0ac4d9012a8718067a5df46f5b953e6e4f51f3f4d69780991a",
+                                      "size":  1470
+                                  },
+                  "images/item_zhuji_dan.png":  {
+                                                    "sha256":  "2b954b028a9d6d27086926acc0c251e9dd9c5ad9bc1554524fbf381d65001548",
+                                                    "size":  403923
+                                                },
+                  "images/sectmap_danxia.png":  {
+                                                    "sha256":  "2161c32b5a094c5a8a261cb5f88568456f6a35f8696f1182ddf8eaa70a9ee718",
+                                                    "size":  837416
+                                                },
+                  "images/sect_danxia.png":  {
+                                                 "sha256":  "869f49d0f09b41c6d8fac3c5537148c2683e7b6c3ecc0f006349047e60088e40",
+                                                 "size":  404161
+                                             },
+                  "images/beast_jiao.png":  {
+                                                "sha256":  "a0a154d6762f58cf7baf923b443fcb9584e8e6e1b2583bf03c97bc969def4b93",
+                                                "size":  384690
+                                            },
+                  "npcs.json":  {
+                                    "sha256":  "66e8e4484cb4b29a18c4710983de4ff54865c369894b1939644eb62c723ddb79",
+                                    "size":  5910
+                                },
+                  "images/sectmap_wanjian.png":  {
+                                                     "sha256":  "5c74264c0171257e78ac18f0201bb85cf74113e043111ffed4d766a67bcc598d",
+                                                     "size":  692915
+                                                 },
+                  "images/item_qiankun_bag.png":  {
+                                                      "sha256":  "c5e3041857c3f843b8137d66e79a341263ece83f4bd258b0af28bc9b2e2da028",
+                                                      "size":  443993
+                                                  },
+                  "images/sectmap_shengong.png":  {
+                                                      "sha256":  "11d99a8eb9ad32ee53b4b8c537f1c8fd277de5f19e9662fe1a37627792403a5b",
+                                                      "size":  958083
+                                                  }
+              },
+    "contentVersion":  9,
+    "version":  "0.1.5"
+}

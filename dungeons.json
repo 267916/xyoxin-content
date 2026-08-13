@@ -1,0 +1,31 @@
+{
+  "dungeons": [
+    {
+      "id": "dun_blackwind",
+      "name": "黑风涧秘境",
+      "difficulty": 1,
+      "minRealm": 0,
+      "baseReward": 60,
+      "desc": "低阶妖兽盘踞的幽涧，适合练手。",
+      "itemPool": ["zhuji_dan", "huichun_dan", "lingshi_kuang"]
+    },
+    {
+      "id": "dun_longyuan",
+      "name": "龙渊古府",
+      "difficulty": 2,
+      "minRealm": 1,
+      "baseReward": 150,
+      "desc": "上古水府遗府，机关与妖修并存，结丹之下慎入。",
+      "itemPool": ["zhuji_dan", "juling_dan", "chuansong_fu", "lingshi_kuang"]
+    },
+    {
+      "id": "dun_xukong",
+      "name": "虚空遗迹",
+      "difficulty": 3,
+      "minRealm": 2,
+      "baseReward": 400,
+      "desc": "虚空裂隙中的古老遗迹，凶险与造化并存。",
+      "itemPool": ["zhuji_dan", "juling_dan", "chuansong_fu", "pokong_suo", "longteng_ling_dan"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sects": [
+    { "id": "taichu", "name": "太初宗", "type": "正道", "location": "中元大陆·太初山", "desc": "最古老，名义第一大宗，综合全能，道法传承渊博", "feature": "综合·平衡，修炼效率 +5%", "map": "sectmap_taichu.png" },
+    { "id": "zixiao", "name": "紫霄宗", "type": "正道", "location": "中元大陆·紫霄峰", "desc": "符箓阵法见长，雷法闻名", "feature": "符箓/阵法，战斗法术威力 +10%", "map": "sectmap_zixiao.png" },
+    { "id": "wanjian", "name": "万剑宗", "type": "正道", "location": "中元大陆·苍脊山脉北麓", "desc": "剑修圣地，杀伐第一", "feature": "剑修，攻击 +8%", "map": "sectmap_wanjian.png" },
+    { "id": "danxia", "name": "丹霞谷", "type": "正道", "location": "中元大陆·丹霞山", "desc": "炼丹大宗，修真界药库", "feature": "丹药，服用丹药效果 +15%", "map": "sectmap_danxia.png" },
+    { "id": "tianyan", "name": "天衍阁", "type": "正道", "location": "中元大陆·天衍高台", "desc": "推演天机，阵道玄奥", "feature": "阵法/推演，悟性提升修炼效率", "map": "sectmap_tianyan.png" },
+    { "id": "hanyue", "name": "撼岳宗", "type": "正道", "location": "中元大陆·撼岳巨岳", "desc": "横练体修，肉身成圣", "feature": "体修，气血 +20%", "map": "sectmap_hanyue.png" },
+    { "id": "shengong", "name": "神工门", "type": "正道", "location": "中元大陆·神工谷", "desc": "炼器大家，机关傀儡", "feature": "炼器，装备打造优惠", "map": "sectmap_shengong.png" },
+    { "id": "yuling", "name": "御灵宗", "type": "正道", "location": "中元大陆·御灵山", "desc": "御兽灵宠，与兽共生", "feature": "御兽，灵宠协助战斗", "map": "sectmap_yuling.png" },
+    { "id": "tianmo", "name": "天魔宗", "type": "魔道", "location": "中元大陆·西域魔渊", "desc": "魔道第一，综合魔功霸道", "feature": "魔功，伤害 +10%", "map": "sectmap_tianmo.png" },
+    { "id": "xuesha", "name": "血煞宗", "type": "魔道", "location": "中元大陆·万骨血沼", "desc": "血道魔宗，吞噬精血", "feature": "血道，击杀回复气血", "map": "sectmap_xuesha.png" },
+    { "id": "youming", "name": "幽冥宗", "type": "魔道", "location": "中元大陆·幽冥谷", "desc": "鬼道阴修，御鬼之术", "feature": "鬼道，神识攻击强化", "map": "sectmap_youming.png" }
+  ]
+}

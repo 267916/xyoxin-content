@@ -1,0 +1,11 @@
+{
+  "rule": "突破化神必须五灵根齐全",
+  "realms": [
+    { "id": "lianqi", "name": "炼气", "kind": "layer", "layers": 12, "lifespan": 120 },
+    { "id": "zhuji", "name": "筑基", "kind": "stage", "stages": ["初期", "中期", "后期"], "lifespan": 250 },
+    { "id": "jiedan", "name": "结丹", "kind": "stage", "stages": ["初期", "中期", "后期"], "lifespan": 600, "danGrades": ["下品", "中品", "上品", "极品"] },
+    { "id": "yuanying", "name": "元婴", "kind": "stage", "stages": ["初期", "中期", "后期"], "lifespan": 1500 },
+    { "id": "huashen", "name": "化神", "kind": "stage", "stages": ["初期", "中期", "后期", "后期巅峰"], "lifespan": 3000, "flyUp": true }
+  ],
+  "lingjie": ["炼虚", "合体", "大乘"]
+}

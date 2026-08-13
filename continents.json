@@ -1,0 +1,61 @@
+{
+  "continents": [
+    {
+      "id": "zhongyuan",
+      "name": "中元大陆",
+      "desc": "修真正统中心，灵气充沛，宗门林立",
+      "locations": [
+        { "name": "中元城坊市", "hint": "第一巨城，坊市最盛", "tags": "坊市·社交", "x": 0.5, "y": 0.5, "market": ["qingfeng_sword", "lingwen_bu_pao", "zhuji_dan", "huichun_dan", "juling_dan", "lieyan_fu", "hushi_fu", "duntao_fu", "yufeng_zhou", "lingshi_kuang"] },
+        { "name": "紫元城", "hint": "十二年宗门开招之地，修士云集", "tags": "社交·奇遇", "x": 0.62, "y": 0.42 },
+        { "name": "河洛坊", "hint": "散修聚集的坊市", "tags": "坊市·社交", "x": 0.4, "y": 0.38, "market": ["qiankun_bag", "huichun_dan", "juling_dan", "hushi_fu", "luoyan_fu", "lingshi_kuang"] },
+        { "name": "万兽坊", "hint": "灵宠妖兽交易之地", "tags": "资源·奇遇", "x": 0.7, "y": 0.48 },
+        { "name": "沧澜城", "hint": "海港巨城，跨洲贸易", "tags": "坊市·社交", "x": 0.82, "y": 0.55, "market": ["qingfeng_sword", "wanxue_dao", "yufeng_zhou", "duntao_fu", "chuansong_fu", "zhuji_dan", "huichun_dan"] },
+        { "name": "寒山镇郊外", "hint": "北域新手历练地", "tags": "奇遇·危机", "x": 0.35, "y": 0.28 },
+        { "name": "苍脊山脉", "hint": "妖兽出没，剑修圣地", "tags": "战斗·资源", "x": 0.5, "y": 0.22 },
+        { "name": "洛水河畔", "hint": "水脉灵秀，机缘暗藏", "tags": "奇遇·资源", "x": 0.44, "y": 0.58 },
+        { "name": "云梦泽", "hint": "大泽迷雾，机缘与凶险并存", "tags": "资源·危机", "x": 0.56, "y": 0.64 },
+        { "name": "百草集周边", "hint": "丹霞谷外，灵药遍地", "tags": "资源·奇遇", "x": 0.68, "y": 0.62 },
+        { "name": "赤焰戈壁边缘", "hint": "火系矿脉，凶兽盘踞", "tags": "资源·战斗", "x": 0.25, "y": 0.68 },
+        { "name": "灵石矿脉", "hint": "灵矿富集之地，收益与风险并存", "tags": "资源·奇遇", "x": 0.32, "y": 0.78 },
+        { "name": "万剑冢外围", "hint": "剑道禁地外围，危机四伏", "tags": "危机·战斗", "x": 0.55, "y": 0.16 }
+      ],
+      "teleports": [
+        { "name": "中元城传送阵", "location": "中元城", "desc": "跨洲传送阵，可往沧溟/古墟", "targets": ["沧溟大陆", "古墟大陆"], "cost": 100 },
+        { "name": "沧澜城传送阵", "location": "沧澜城", "desc": "海港跨洲传送阵，可往沧溟", "targets": ["沧溟大陆"], "cost": 150 },
+        { "name": "镇西城传送阵", "location": "镇西城", "desc": "西域跨洲传送阵，可往古墟", "targets": ["古墟大陆"], "cost": 120 },
+        { "name": "昭京传送阵", "location": "昭京", "desc": "大昭王朝跨洲传送阵，可往沧溟", "targets": ["沧溟大陆"], "cost": 200 }
+      ]
+    },
+    {
+      "id": "cangming",
+      "name": "沧溟大陆",
+      "desc": "东南海域，水修海商，海族盘踞",
+      "locations": [
+        { "name": "沧溟城海市", "hint": "海市繁华，应有尽有", "tags": "坊市·社交", "x": 0.8, "y": 0.75, "market": ["wanxue_dao", "shenxian_bian", "yufeng_zhou", "chuansong_fu", "pokong_suo", "zhuji_dan", "longteng_ling_dan"] },
+        { "name": "鲛人湾", "hint": "鲛人聚集，稀珍交易", "tags": "社交·奇遇", "x": 0.85, "y": 0.65 },
+        { "name": "碧波群岛海域", "hint": "群岛之间，海兽出没", "tags": "资源·战斗", "x": 0.7, "y": 0.8 },
+        { "name": "沉渊海市", "hint": "海底秘密市场，水深莫测", "tags": "坊市·危机", "x": 0.88, "y": 0.85, "market": ["yuanhua_jian", "shenxian_bian", "pokong_suo", "longteng_ling_dan", "tongtian_fu", "zhuji_dan"] },
+        { "name": "沉船海渊", "hint": "水系遗迹，海族秘辛", "tags": "资源·危机", "x": 0.78, "y": 0.9 },
+        { "name": "潮汐石窟", "hint": "涨潮方开的石窟，灵药暗藏", "tags": "奇遇·资源", "x": 0.65, "y": 0.88 }
+      ],
+      "teleports": [
+        { "name": "沧溟城传送阵", "location": "沧溟城", "desc": "可返回中元大陆", "targets": ["中元大陆"], "cost": 100 }
+      ]
+    },
+    {
+      "id": "guxu",
+      "name": "古墟大陆",
+      "desc": "西北蛮荒，上古遗迹，部落图腾",
+      "locations": [
+        { "name": "图腾圣城", "hint": "部落联盟圣城，祭典之地", "tags": "社交·奇遇", "x": 0.2, "y": 0.15, "market": ["qingfeng_sword", "lingwen_bu_pao", "lingshi_kuang", "huichun_dan", "zhuji_dan"] },
+        { "name": "赤铜部落", "hint": "炼器矿产，以物易物", "tags": "资源·坊市", "x": 0.3, "y": 0.2, "market": ["lingshi_kuang", "hushi_fu", "huichun_dan", "juling_dan", "luoyan_fu"] },
+        { "name": "蛮荒荒野", "hint": "凶兽横行，蛮荒大地", "tags": "战斗·危机", "x": 0.15, "y": 0.3 },
+        { "name": "荒古遗迹外围", "hint": "上古文明遗迹，机关暗藏", "tags": "奇遇·危机", "x": 0.25, "y": 0.08 },
+        { "name": "上古战场边缘", "hint": "远古战场，遗宝与怨灵并存", "tags": "战斗·资源", "x": 0.35, "y": 0.32 }
+      ],
+      "teleports": [
+        { "name": "图腾圣城传送阵", "location": "图腾圣城", "desc": "可返回中元大陆", "targets": ["中元大陆"], "cost": 130 }
+      ]
+    }
+  ]
+}

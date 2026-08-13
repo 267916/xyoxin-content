@@ -1,0 +1,393 @@
+{
+  "items": [
+    {
+      "id": "spirit_stone_low",
+      "name": "下品灵石",
+      "type": "currency",
+      "rarity": "common"
+    },
+    {
+      "id": "spirit_stone_mid",
+      "name": "中品灵石",
+      "type": "currency",
+      "rarity": "common"
+    },
+    {
+      "id": "qingfeng_sword",
+      "name": "青锋剑",
+      "type": "weapon",
+      "grade": "下品",
+      "category": "剑",
+      "desc": "基础飞剑，攻击+15",
+      "attack": 15,
+      "price": 500
+    },
+    {
+      "id": "qiankun_bag",
+      "name": "乾坤袋",
+      "type": "accessory",
+      "grade": "中品",
+      "desc": "随身储物",
+      "price": 300
+    },
+    {
+      "id": "zhuji_dan",
+      "name": "筑基丹",
+      "type": "pill",
+      "grade": "灵·上品",
+      "desc": "突破辅助，服用获得大量修为",
+      "effect": "cultivation",
+      "value": 100,
+      "price": 800
+    },
+    {
+      "id": "lingwen_bu_pao",
+      "name": "灵纹布袍",
+      "type": "armor",
+      "grade": "下品",
+      "desc": "基础防护，防御+10",
+      "defense": 10,
+      "price": 200
+    },
+    {
+      "id": "yufeng_zhou",
+      "name": "御风舟",
+      "type": "vehicle",
+      "grade": "中品",
+      "desc": "飞行灵舟，速度+5",
+      "speed": 8,
+      "price": 5000
+    },
+    {
+      "id": "juling_dan",
+      "name": "聚灵丹",
+      "type": "pill",
+      "grade": "灵·上品",
+      "desc": "加速修炼，服用获得修为",
+      "effect": "cultivation",
+      "value": 50,
+      "manaCost": 5,
+      "price": 400
+    },
+    {
+      "id": "huichun_dan",
+      "name": "回春丹",
+      "type": "pill",
+      "grade": "灵·下品",
+      "desc": "疗伤，战斗/日常恢复气血 40",
+      "battleKind": "heal",
+      "battleValue": 40,
+      "manaCost": 8,
+      "price": 100
+    },
+    {
+      "id": "lieyan_fu",
+      "name": "烈焰符",
+      "type": "talisman",
+      "grade": "灵·下品",
+      "desc": "火系伤害符，战斗可用，3 次",
+      "uses": 3,
+      "battleKind": "damage",
+      "battleValue": 50,
+      "manaCost": 15,
+      "price": 150
+    },
+    {
+      "id": "hushi_fu",
+      "name": "护身符",
+      "type": "talisman",
+      "grade": "灵·下品",
+      "desc": "抵挡 40 点伤害，战斗可用，2 次",
+      "uses": 2,
+      "battleKind": "shield",
+      "battleValue": 40,
+      "manaCost": 10,
+      "price": 200
+    },
+    {
+      "id": "duntao_fu",
+      "name": "遁逃符",
+      "type": "talisman",
+      "grade": "灵·中品",
+      "desc": "必定成功逃跑，战斗可用，1 次",
+      "uses": 1,
+      "battleKind": "flee",
+      "manaCost": 10,
+      "price": 300
+    },
+    {
+      "id": "gongfa_qingyun",
+      "name": "《青云吐纳诀》",
+      "type": "technique",
+      "grade": "黄阶",
+      "desc": "心法：修炼效率 +10%",
+      "effect": "cultivation_efficiency",
+      "value": 0.1,
+      "price": 200
+    },
+    {
+      "id": "gongfa_dayan",
+      "name": "《大衍吐纳经》",
+      "type": "technique",
+      "grade": "玄阶",
+      "desc": "心法：修炼效率 +25%",
+      "effect": "cultivation_efficiency",
+      "value": 0.25,
+      "price": 800
+    },
+    {
+      "id": "xuanhuan_fan_dan",
+      "name": "幻元凡丹",
+      "type": "pill",
+      "grade": "凡",
+      "desc": "初级炼气丹，可提升修为，增强体质。",
+      "price": 100
+    },
+    {
+      "id": "longteng_ling_dan",
+      "name": "龙腾灵丹",
+      "type": "pill",
+      "grade": "灵",
+      "desc": "中级灵丹，大幅提升修为，增强灵力。",
+      "price": 500
+    },
+    {
+      "id": "baosui_bao_dan",
+      "name": "宝树宝丹",
+      "type": "pill",
+      "grade": "宝",
+      "desc": "珍稀宝丹，快速突破修为瓶颈，增强法力。",
+      "price": 1000
+    },
+    {
+      "id": "xuanwu_xian_dan",
+      "name": "玄武仙丹",
+      "type": "pill",
+      "grade": "仙",
+      "desc": "顶级仙丹，可助修士一跃成为化神境界，增强神通。",
+      "price": 5000
+    },
+    {
+      "id": "huanhun_yuan_dan",
+      "name": "魂渊元丹",
+      "type": "pill",
+      "grade": "宝",
+      "desc": "特殊丹药，能够恢复灵魂之力，提升精神境界。",
+      "price": 1200
+    },
+    {
+      "id": "jinding_lian_dan",
+      "name": "金灵炼丹",
+      "type": "pill",
+      "grade": "灵",
+      "desc": "高级灵丹，提升修为同时增强灵根，适合灵根薄弱者。",
+      "price": 600
+    },
+    {
+      "id": "shuiliu_fu",
+      "name": "水灵符",
+      "type": "talisman",
+      "grade": "灵",
+      "desc": "此符箓能聚集水灵之力，增强灵力输出。",
+      "price": 100,
+      "uses": 3,
+      "battleKind": "damage",
+      "battleValue": 30,
+      "manaCost": 10
+    },
+    {
+      "id": "hongyun_fu",
+      "name": "火云符",
+      "type": "talisman",
+      "grade": "宝",
+      "desc": "火云符凝聚火灵之力，大幅提升攻击力。",
+      "price": 500,
+      "uses": 2,
+      "battleKind": "damage",
+      "battleValue": 60,
+      "manaCost": 20
+    },
+    {
+      "id": "tongtian_fu",
+      "name": "通天符",
+      "type": "talisman",
+      "grade": "仙",
+      "desc": "能短暂连接天地，增强修为和灵力。",
+      "price": 1000,
+      "uses": 1,
+      "battleKind": "heal",
+      "battleValue": 100,
+      "manaCost": 25
+    },
+    {
+      "id": "luoyan_fu",
+      "name": "罗烟符",
+      "type": "talisman",
+      "grade": "中品",
+      "desc": "此符箓能制造烟雾，有效干扰敌人视线。",
+      "price": 300,
+      "uses": 3,
+      "battleKind": "flee",
+      "battleValue": 20,
+      "manaCost": 10
+    },
+    {
+      "id": "shendao_fu",
+      "name": "深道符",
+      "type": "talisman",
+      "grade": "上品",
+      "desc": "此符箓可增强自身防御，抵挡敌人攻击。",
+      "price": 700,
+      "uses": 2,
+      "battleKind": "shield",
+      "battleValue": 40,
+      "manaCost": 15
+    },
+    {
+      "id": "wanxue_dao",
+      "name": "弯月刀",
+      "type": "weapon",
+      "grade": "上品",
+      "desc": "锋利无比，切割空气如丝，中品灵力注入，斩杀邪魔利器。",
+      "price": 3000,
+      "attack": 80
+    },
+    {
+      "id": "shenxian_bian",
+      "name": "神仙幡",
+      "type": "weapon",
+      "grade": "极品",
+      "desc": "传说中仙人使用之幡，蕴含强大灵力，操控自如，可驱散阴霾。",
+      "price": 5000,
+      "attack": 100
+    },
+    {
+      "id": "yuanhua_jian",
+      "name": "玄华剑",
+      "type": "weapon",
+      "grade": "灵宝",
+      "desc": "剑身流转着玄奥的气息，每一次挥剑都能引发天地异象，是真正的仙剑。",
+      "price": 10000,
+      "attack": 150
+    },
+    {
+      "id": "fuyun_hongtong",
+      "name": "浮云红藤",
+      "type": "weapon",
+      "grade": "中品",
+      "desc": "此藤非藤，乃灵草所化，坚韧异常，攻击时如风一般迅捷。",
+      "price": 1500,
+      "attack": 50
+    },
+    {
+      "id": "liuning_armor",
+      "name": "莲花护甲",
+      "type": "armor",
+      "grade": "中品",
+      "desc": "由千年莲花精血炼制而成，穿上者如莲花般纯洁，防御力大增。",
+      "defense": 22,
+      "price": 5000
+    },
+    {
+      "id": "longwang_jin_armor",
+      "name": "龙王金甲",
+      "type": "armor",
+      "grade": "上品",
+      "desc": "以龙王精金锻造，坚韧无比，穿上者如龙护体，防御力惊人。",
+      "defense": 42,
+      "price": 10000
+    },
+    {
+      "id": "fuyin_yin_armor",
+      "name": "浮云阴甲",
+      "type": "armor",
+      "grade": "高阶",
+      "desc": "采用九天浮云阴气织成，轻便且防御力极高，适合高速移动的修士。",
+      "defense": 42,
+      "price": 15000
+    },
+    {
+      "id": "taiji_yin_armor",
+      "name": "太极阴甲",
+      "type": "armor",
+      "grade": "顶阶",
+      "desc": "蕴含天地至理，穿上者如太极无极，防御力无物可破。",
+      "defense": 62,
+      "price": 20000
+    },
+    {
+      "id": "huangtian_gongfa",
+      "name": "黄天剑诀",
+      "type": "technique",
+      "grade": "黄阶",
+      "desc": "以黄天为引，剑气纵横，威力惊人。",
+      "price": 10000,
+      "effect": "cultivation_efficiency",
+      "value": 0.2
+    },
+    {
+      "id": "xuanmu_zhuanxiang",
+      "name": "玄木转象诀",
+      "type": "technique",
+      "grade": "玄阶",
+      "desc": "借助玄木之力，可转化自身形态，提高防御。",
+      "price": 50000,
+      "effect": "cultivation_efficiency",
+      "value": 0.3
+    },
+    {
+      "id": "ditan_fengyin",
+      "name": "地坛风吟",
+      "type": "technique",
+      "grade": "地阶",
+      "desc": "地坛风吟，声波攻敌，威力不容小觑。",
+      "price": 300000,
+      "effect": "cultivation_efficiency",
+      "value": 0.4
+    },
+    {
+      "id": "tianjie_baoxiang",
+      "name": "天涯宝象",
+      "type": "technique",
+      "grade": "天阶",
+      "desc": "天涯宝象，一念之间，可破碎虚空。",
+      "price": 1000000,
+      "effect": "cultivation_efficiency",
+      "value": 0.5
+    },
+    {
+      "id": "lingshi_kuang",
+      "name": "灵石矿",
+      "type": "material",
+      "rarity": "common",
+      "desc": "蕴含灵气的原矿石，可交换传送资格或在坊市售卖。",
+      "price": 30
+    },
+    {
+      "id": "chuansong_fu",
+      "name": "传送符",
+      "type": "talisman",
+      "grade": "灵·上品",
+      "desc": "刻有跨洲传送阵纹的符箓，可激活传送阵。",
+      "uses": 1,
+      "price": 500
+    },
+    {
+      "id": "pokong_suo",
+      "name": "破空梭",
+      "type": "talisman",
+      "grade": "宝·下品",
+      "desc": "撕裂虚空的一次性法器，可强行激活传送阵。",
+      "uses": 1,
+      "price": 800
+    },
+    {
+      "id": "tongxing_wenshu",
+      "name": "通行文书",
+      "type": "material",
+      "rarity": "rare",
+      "desc": "NPC 交付的跨洲通行凭证，凭此可免费使用跨大陆传送阵。",
+      "price": 0
+    }
+  ]
+}

@@ -1,0 +1,4221 @@
+{
+  "events": [
+    {
+      "id": "ev_qiyu_1",
+      "name": "前辈洞府",
+      "category": "奇遇",
+      "scene": "深山古洞",
+      "options": [
+        {
+          "text": "进入探索",
+          "effects": {
+            "hp": -15,
+            "random": {
+              "chance": 0.55,
+              "effects": {
+                "loot": [
+                  "qiankun_bag"
+                ],
+                "spiritStones": 120
+              }
+            }
+          }
+        },
+        {
+          "text": "上报宗门换贡献",
+          "effects": {
+            "sectContribution": 15,
+            "spiritStones": 50
+          }
+        },
+        {
+          "text": "离开",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_qiyu_2",
+      "name": "传承石碑",
+      "category": "奇遇",
+      "scene": "荒野断碑",
+      "options": [
+        {
+          "text": "参悟碑文",
+          "effects": {
+            "wuxing": 1,
+            "cultivation": 60
+          }
+        },
+        {
+          "text": "拓印带走",
+          "effects": {
+            "spiritStones": -30,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        },
+        {
+          "text": "留给有缘人",
+          "effects": {
+            "fuyuan": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_qiyu_3",
+      "name": "天材地宝",
+      "category": "奇遇",
+      "scene": "悬崖灵药",
+      "options": [
+        {
+          "text": "冒险采摘",
+          "effects": {
+            "hp": -20,
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "loot": [
+                  "juling_dan",
+                  "spirit_stone_mid"
+                ],
+                "spiritStones": 80
+              }
+            }
+          }
+        },
+        {
+          "text": "标记以后再采",
+          "effects": {
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "卖消息",
+          "effects": {
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_qiyu_4",
+      "name": "灵宠幼崽",
+      "category": "奇遇",
+      "scene": "兽穴旁",
+      "options": [
+        {
+          "text": "收养（需喂养）",
+          "effects": {
+            "spiritStones": -100,
+            "fuyuan": 2
+          }
+        },
+        {
+          "text": "捕捉卖给万兽坊",
+          "effects": {
+            "spiritStones": 150
+          }
+        },
+        {
+          "text": "放生",
+          "effects": {
+            "fuyuan": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_qiyu_5",
+      "name": "残破玉简",
+      "category": "奇遇",
+      "scene": "尸骸旁",
+      "options": [
+        {
+          "text": "解读玉简",
+          "effects": {
+            "wuxing": 1,
+            "cultivation": 40
+          }
+        },
+        {
+          "text": "卖给坊市",
+          "effects": {
+            "spiritStones": 60
+          }
+        },
+        {
+          "text": "销毁",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_1",
+      "name": "妖兽袭击",
+      "category": "战斗",
+      "scene": "荒野",
+      "options": [
+        {
+          "text": "迎战",
+          "battle": true,
+          "effects": {
+            "loot": [
+              "juling_dan"
+            ],
+            "spiritStones": 80
+          }
+        },
+        {
+          "text": "逃跑",
+          "effects": {
+            "hp": -10
+          }
+        },
+        {
+          "text": "丹药诱开",
+          "effects": {
+            "spiritStones": -40,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_2",
+      "name": "魔修劫道",
+      "category": "战斗",
+      "scene": "商道",
+      "options": [
+        {
+          "text": "应战",
+          "battle": true,
+          "effects": {
+            "loot": [
+              "qiankun_bag"
+            ],
+            "spiritStones": 100
+          }
+        },
+        {
+          "text": "破财消灾",
+          "effects": {
+            "spiritStones": -60
+          }
+        },
+        {
+          "text": "遁术脱身",
+          "effects": {
+            "mana": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_3",
+      "name": "凶兽拦路",
+      "category": "战斗",
+      "scene": "深山",
+      "options": [
+        {
+          "text": "强闯",
+          "effects": {
+            "hp": -30,
+            "loot": [
+              "spirit_stone_mid"
+            ],
+            "spiritStones": 50
+          }
+        },
+        {
+          "text": "绕行",
+          "effects": {}
+        },
+        {
+          "text": "威慑",
+          "effects": {
+            "mana": -10,
+            "hp": -5
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_4",
+      "name": "鬼修夜袭",
+      "category": "战斗",
+      "scene": "夜宿荒野",
+      "options": [
+        {
+          "text": "神识护体",
+          "effects": {
+            "shenshi": -10,
+            "hp": -10,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "布阵自守",
+          "effects": {
+            "mana": -15
+          }
+        },
+        {
+          "text": "遁走",
+          "effects": {
+            "hp": -15
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_1",
+      "name": "灵药田",
+      "category": "资源",
+      "scene": "山谷",
+      "options": [
+        {
+          "text": "采摘",
+          "effects": {
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "loot": [
+                  "juling_dan"
+                ],
+                "spiritStones": 60
+              }
+            }
+          }
+        },
+        {
+          "text": "标记定期来采",
+          "effects": {
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "上报宗门",
+          "effects": {
+            "sectContribution": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_2",
+      "name": "灵石矿脉",
+      "category": "资源",
+      "scene": "山腹",
+      "options": [
+        {
+          "text": "开挖",
+          "effects": {
+            "spiritStones": 120
+          }
+        },
+        {
+          "text": "上报宗门",
+          "effects": {
+            "sectContribution": 20,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "守坐标",
+          "effects": {
+            "fuyuan": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_3",
+      "name": "灵泉",
+      "category": "资源",
+      "scene": "密林",
+      "options": [
+        {
+          "text": "取水疗伤",
+          "effects": {
+            "hp": 20,
+            "mana": 15
+          }
+        },
+        {
+          "text": "建聚灵点",
+          "effects": {
+            "mana": -10,
+            "spiritStones": -50,
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "标记",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_4",
+      "name": "妖兽尸骸",
+      "category": "资源",
+      "scene": "荒野",
+      "options": [
+        {
+          "text": "剥取材料",
+          "effects": {
+            "loot": [
+              "spirit_stone_mid"
+            ],
+            "spiritStones": 70
+          }
+        },
+        {
+          "text": "就地炼化",
+          "effects": {
+            "cultivation": 30
+          }
+        },
+        {
+          "text": "引来食腐妖兽",
+          "effects": {
+            "hp": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_crisis_1",
+      "name": "误入幻阵",
+      "category": "危机",
+      "scene": "遗迹外",
+      "options": [
+        {
+          "text": "强行破阵",
+          "effects": {
+            "mana": -20,
+            "shenshi": -5,
+            "cultivation": 30
+          }
+        },
+        {
+          "text": "静心打坐等阵消退",
+          "effects": {
+            "cultivation": 10,
+            "hp": 5
+          }
+        },
+        {
+          "text": "求助",
+          "effects": {
+            "spiritStones": -50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_crisis_2",
+      "name": "毒瘴弥漫",
+      "category": "危机",
+      "scene": "沼泽",
+      "options": [
+        {
+          "text": "服解毒丹",
+          "effects": {
+            "hp": 10,
+            "spiritStones": -20
+          }
+        },
+        {
+          "text": "绕行",
+          "effects": {}
+        },
+        {
+          "text": "闭气强闯",
+          "effects": {
+            "hp": -25
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_crisis_3",
+      "name": "心魔幻境",
+      "category": "危机",
+      "scene": "打坐中",
+      "options": [
+        {
+          "text": "直面心魔",
+          "effects": {
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "cultivation": 70,
+                "wuxing": 1
+              }
+            },
+            "hp": -15
+          }
+        },
+        {
+          "text": "强行醒来",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "道音相助",
+          "effects": {
+            "mana": -15,
+            "spiritStones": -30
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_crisis_4",
+      "name": "被通缉",
+      "category": "危机",
+      "scene": "城镇",
+      "options": [
+        {
+          "text": "易容改扮",
+          "effects": {
+            "spiritStones": -40,
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "疏通关系",
+          "effects": {
+            "spiritStones": -80
+          }
+        },
+        {
+          "text": "遁走他域",
+          "effects": {
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_social_1",
+      "name": "落魄商人",
+      "category": "社交",
+      "scene": "坊市",
+      "options": [
+        {
+          "text": "花灵石买消息",
+          "effects": {
+            "spiritStones": -30,
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "出手相助",
+          "effects": {
+            "spiritStones": -50,
+            "fuyuan": 2
+          }
+        },
+        {
+          "text": "不理",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_social_2",
+      "name": "游历修士",
+      "category": "社交",
+      "scene": "茶楼",
+      "options": [
+        {
+          "text": "攀谈请教",
+          "effects": {
+            "wuxing": 1,
+            "spiritStones": -20
+          }
+        },
+        {
+          "text": "切磋论道",
+          "battle": true,
+          "effects": {
+            "cultivation": 40
+          }
+        },
+        {
+          "text": "各走各路",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_social_3",
+      "name": "修士求援",
+      "category": "社交",
+      "scene": "荒野",
+      "options": [
+        {
+          "text": "施救",
+          "effects": {
+            "hp": -15,
+            "fuyuan": 2,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "索取报酬",
+          "effects": {
+            "spiritStones": 80,
+            "fuyuan": -1
+          }
+        },
+        {
+          "text": "旁观",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_market_1",
+      "name": "稀有丹方",
+      "category": "坊市",
+      "scene": "中元城拍卖会",
+      "options": [
+        {
+          "text": "参与竞拍",
+          "effects": {
+            "spiritStones": -150,
+            "loot": [
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "放弃",
+          "effects": {}
+        },
+        {
+          "text": "记下情报",
+          "effects": {
+            "fuyuan": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_market_2",
+      "name": "以物易物",
+      "category": "坊市",
+      "scene": "摊主",
+      "options": [
+        {
+          "text": "换材料",
+          "effects": {
+            "loot": [
+              "spirit_stone_mid"
+            ],
+            "spiritStones": -30
+          }
+        },
+        {
+          "text": "加灵石置换",
+          "effects": {
+            "spiritStones": -60,
+            "loot": [
+              "qingfeng_sword"
+            ]
+          }
+        },
+        {
+          "text": "婉拒",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_culti_1",
+      "name": "顿悟",
+      "category": "修炼",
+      "scene": "修炼中",
+      "options": [
+        {
+          "text": "抓住顿悟",
+          "effects": {
+            "wuxing": 1,
+            "cultivation": 80
+          }
+        },
+        {
+          "text": "记录心得",
+          "effects": {
+            "fuyuan": 1
+          }
+        },
+        {
+          "text": "分心（错失）",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_culti_2",
+      "name": "灵气潮汐",
+      "category": "修炼",
+      "scene": "修炼之地",
+      "options": [
+        {
+          "text": "抓紧修炼",
+          "effects": {
+            "cultivation": 60
+          }
+        },
+        {
+          "text": "采集灵气结晶",
+          "effects": {
+            "loot": [
+              "spirit_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "布聚灵阵",
+          "effects": {
+            "mana": -10,
+            "fuyuan": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_001",
+      "name": "神秘古树",
+      "category": "奇遇",
+      "scene": "深山幽谷",
+      "options": [
+        {
+          "text": "采集古树果实",
+          "effects": {
+            "spiritStones": 100,
+            "wuxing": 5
+          }
+        },
+        {
+          "text": "尝试吸收古树灵气",
+          "effects": {
+            "mana": 50,
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "fuyuan": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "离开古树，继续寻宝",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_002",
+      "name": "遗迹探险",
+      "category": "奇遇",
+      "scene": "荒凉遗迹",
+      "options": [
+        {
+          "text": "深入遗迹，寻找宝物",
+          "effects": {
+            "loot": [
+              "qingfeng_sword",
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "在遗迹中发现神秘符文",
+          "effects": {
+            "shenshi": 20,
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "cultivation": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "放弃探险，返回安全地带",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_003",
+      "name": "妖兽认主",
+      "category": "奇遇",
+      "scene": "密林深处",
+      "options": [
+        {
+          "text": "收服妖兽，成为伙伴",
+          "effects": {
+            "sectContribution": 50,
+            "loot": [
+              "yufeng_zhou"
+            ]
+          }
+        },
+        {
+          "text": "尝试与妖兽沟通，了解其来历",
+          "effects": {
+            "shenshi": 15,
+            "random": {
+              "chance": 0.8,
+              "effects": {
+                "fuyuan": 20
+              }
+            }
+          }
+        },
+        {
+          "text": "离开妖兽，继续修炼",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_004",
+      "name": "仙缘降临",
+      "category": "奇遇",
+      "scene": "云雾缭绕的山巅",
+      "options": [
+        {
+          "text": "接受仙缘，修炼神秘功法",
+          "effects": {
+            "cultivation": 20,
+            "random": {
+              "chance": 0.9,
+              "effects": {
+                "shenshi": 30
+              }
+            }
+          }
+        },
+        {
+          "text": "拒绝仙缘，继续独自修炼",
+          "effects": {
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "探索山巅，寻找其他奇遇",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_005",
+      "name": "灵泉奇遇",
+      "category": "奇遇",
+      "scene": "幽静山谷",
+      "options": [
+        {
+          "text": "饮用灵泉，提升修为",
+          "effects": {
+            "cultivation": 15,
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "fuyuan": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "在灵泉周围寻找宝物",
+          "effects": {
+            "loot": [
+              "qiankun_bag",
+              "lingwen_bu_pao"
+            ]
+          }
+        },
+        {
+          "text": "离开灵泉，避免被灵气反噬",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_001",
+      "name": "神秘洞府",
+      "category": "奇遇",
+      "scene": "深山幽谷",
+      "options": [
+        {
+          "text": "深入洞府探秘",
+          "effects": {
+            "spiritStones": 200,
+            "loot": [
+              "qingfeng_sword",
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "在洞口打坐修炼",
+          "effects": {
+            "cultivation": 5,
+            "mana": 100
+          }
+        },
+        {
+          "text": "放弃探秘，离开此地",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_002",
+      "name": "上古遗迹",
+      "category": "奇遇",
+      "scene": "密林深处",
+      "options": [
+        {
+          "text": "发掘遗迹，寻找宝物",
+          "effects": {
+            "spiritStones": 150,
+            "loot": [
+              "qiankun_bag",
+              "yufeng_zhou"
+            ]
+          }
+        },
+        {
+          "text": "遗迹守护者阻扰",
+          "effects": {
+            "battle": true,
+            "loot": []
+          }
+        },
+        {
+          "text": "选择离开，另寻宝地",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_003",
+      "name": "灵兽相伴",
+      "category": "奇遇",
+      "scene": "幽林小径",
+      "options": [
+        {
+          "text": "与灵兽结成好友",
+          "effects": {
+            "wuxing": 10,
+            "fuyuan": 5,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        },
+        {
+          "text": "灵兽受惊而逃",
+          "effects": {
+            "loot": []
+          }
+        },
+        {
+          "text": "继续前行，寻找灵兽",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_004",
+      "name": "神秘老者",
+      "category": "奇遇",
+      "scene": "荒野古道",
+      "options": [
+        {
+          "text": "请求指教",
+          "effects": {
+            "cultivation": 10,
+            "loot": [
+              "lingwen_bu_pao"
+            ]
+          }
+        },
+        {
+          "text": "赠送盘缠",
+          "effects": {
+            "spiritStones": 50,
+            "loot": []
+          }
+        },
+        {
+          "text": "避而不见",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_005",
+      "name": "仙界灵泉",
+      "category": "奇遇",
+      "scene": "仙雾缭绕之地",
+      "options": [
+        {
+          "text": "饮下灵泉，提升修为",
+          "effects": {
+            "cultivation": 30,
+            "mana": 500
+          }
+        },
+        {
+          "text": "误入禁地，遭遇险境",
+          "effects": {
+            "battle": true,
+            "loot": []
+          }
+        },
+        {
+          "text": "心生恐惧，逃离此地",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_奇遇_006",
+      "name": "异界穿越",
+      "category": "奇遇",
+      "scene": "时空裂缝",
+      "options": [
+        {
+          "text": "穿越至异界，结识异域修士",
+          "effects": {
+            "spiritStones": 100,
+            "loot": [
+              "spire_dan"
+            ]
+          }
+        },
+        {
+          "text": "在异界陷入苦战",
+          "effects": {
+            "battle": true,
+            "loot": []
+          }
+        },
+        {
+          "text": "强行突破时空裂缝，返回原界",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_5",
+      "name": "魔道宗门挑战",
+      "category": "战斗",
+      "scene": "天魔宗山门",
+      "options": [
+        {
+          "text": "硬碰硬",
+          "effects": {
+            "hp": -40,
+            "spiritStones": 80,
+            "sectContribution": 35
+          },
+          "battle": true
+        },
+        {
+          "text": "智斗策略",
+          "effects": {
+            "hp": -30,
+            "spiritStones": 60,
+            "sectContribution": 30
+          },
+          "battle": true
+        },
+        {
+          "text": "暗中退却",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_6",
+      "name": "结丹期大比",
+      "category": "战斗",
+      "scene": "太初宗结丹台",
+      "options": [
+        {
+          "text": "全力争胜",
+          "effects": {
+            "hp": -45,
+            "spiritStones": 90,
+            "sectContribution": 40
+          },
+          "battle": true
+        },
+        {
+          "text": "防守为主",
+          "effects": {
+            "hp": -35,
+            "spiritStones": 70,
+            "sectContribution": 35
+          },
+          "battle": true
+        },
+        {
+          "text": "审时度势",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 60,
+            "sectContribution": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_01_001",
+      "name": "神秘洞穴的宝藏",
+      "category": "资源",
+      "scene": "荒野探险",
+      "options": [
+        {
+          "text": "勇敢地深入洞穴",
+          "effects": {
+            "loot": [
+              "qingfeng_sword",
+              "qiankun_bag",
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "选择安全返回",
+          "effects": {
+            "spiritStones": 20
+          }
+        },
+        {
+          "text": "尝试在洞口附近搜寻",
+          "effects": {
+            "loot": [
+              "lingwen_bu_pao",
+              "yufeng_zhou"
+            ],
+            "spiritStones": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_02_001",
+      "name": "古墓奇缘",
+      "category": "资源",
+      "scene": "深山古墓",
+      "options": [
+        {
+          "text": "仔细挖掘，寻找墓主人遗物",
+          "effects": {
+            "loot": [
+              "qiankun_bag",
+              "juling_dan",
+              "spiring_stone_mid"
+            ],
+            "sectContribution": 30
+          }
+        },
+        {
+          "text": "在墓碑前祭拜，寻求庇佑",
+          "effects": {
+            "fuyuan": 50,
+            "hp": 20
+          }
+        },
+        {
+          "text": "离开古墓，继续探险",
+          "effects": {
+            "spiritStones": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_03_001",
+      "name": "灵草谷的灵气波动",
+      "category": "资源",
+      "scene": "山谷深处",
+      "options": [
+        {
+          "text": "小心寻找，收获灵草",
+          "effects": {
+            "loot": [
+              "zhuji_dan",
+              "juling_dan"
+            ],
+            "wuxing": 30
+          }
+        },
+        {
+          "text": "在谷边休息，恢复灵力",
+          "effects": {
+            "mana": 200,
+            "hp": 30
+          }
+        },
+        {
+          "text": "探索未知的山谷角落",
+          "effects": {
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "loot": [
+                  "yufeng_zhou"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_04_001",
+      "name": "灵石矿脉",
+      "category": "资源",
+      "scene": "山脉之中",
+      "options": [
+        {
+          "text": "耐心挖掘，收集灵石",
+          "effects": {
+            "spiritStones": 300,
+            "cultivation": 20
+          }
+        },
+        {
+          "text": "小心探测，避免塌方",
+          "effects": {
+            "spiritStones": 200
+          }
+        },
+        {
+          "text": "留下部分灵石，返回门派",
+          "effects": {
+            "spiritStones": 150,
+            "sectContribution": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_05_001",
+      "name": "异界裂缝",
+      "category": "资源",
+      "scene": "边界区域",
+      "options": [
+        {
+          "text": "穿越裂缝，进入异界",
+          "effects": {
+            "loot": [
+              "yufeng_zhou",
+              "spiring_stone_mid"
+            ],
+            "hp": -20,
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "loot": [
+                  "juling_dan",
+                  "zhuji_dan"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "在外围区域探索",
+          "effects": {
+            "spiritStones": 100
+          }
+        },
+        {
+          "text": "返回安全区域，避免危险",
+          "effects": {
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "res_06_001",
+      "name": "上古遗迹的线索",
+      "category": "资源",
+      "scene": "古老遗迹",
+      "options": [
+        {
+          "text": "追踪线索，深入遗迹",
+          "effects": {
+            "loot": [
+              "qingfeng_sword",
+              "juling_dan",
+              "yufeng_zhou"
+            ],
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "cultivation": 50
+              }
+            }
+          }
+        },
+        {
+          "text": "在遗迹外收集碎片信息",
+          "effects": {
+            "loot": [
+              "spiring_stone_mid",
+              "lingwen_bu_pao"
+            ],
+            "mana": 150
+          }
+        },
+        {
+          "text": "放弃探索，前往其他地方",
+          "effects": {
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_001",
+      "name": "妖兽突袭",
+      "category": "危机",
+      "scene": "深夜山林",
+      "options": [
+        {
+          "text": "尝试躲避",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "召唤灵兽支援",
+          "effects": {
+            "cultivation": -50,
+            "hp": -10
+          }
+        },
+        {
+          "text": "硬拼一击",
+          "effects": {
+            "hp": -30,
+            "battle": true
+          },
+          "chance": 0.7
+        }
+      ]
+    },
+    {
+      "id": "cr_002",
+      "name": "天劫降临",
+      "category": "危机",
+      "scene": "雷雨交加之夜",
+      "options": [
+        {
+          "text": "闭关修炼，静待天劫过去",
+          "effects": {
+            "cultivation": -100,
+            "mana": -200
+          }
+        },
+        {
+          "text": "寻找避难之地",
+          "effects": {
+            "hp": -10,
+            "fuyuan": 50
+          }
+        },
+        {
+          "text": "强行突破，挑战天劫",
+          "effects": {
+            "hp": -50,
+            "battle": true
+          },
+          "chance": 0.8
+        }
+      ]
+    },
+    {
+      "id": "cr_003",
+      "name": "宗门内斗",
+      "category": "危机",
+      "scene": "宗门大殿",
+      "options": [
+        {
+          "text": "保持中立，暗中观察",
+          "effects": {
+            "sectContribution": -20,
+            "fuyuan": 30
+          }
+        },
+        {
+          "text": "加入一方，助其一臂之力",
+          "effects": {
+            "sectContribution": 50,
+            "hp": -20
+          }
+        },
+        {
+          "text": "试图调解，平息纷争",
+          "effects": {
+            "sectContribution": 30,
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_004",
+      "name": "灵脉枯竭",
+      "category": "危机",
+      "scene": "灵脉之地",
+      "options": [
+        {
+          "text": "寻找新的灵脉",
+          "effects": {
+            "spiritStones": -100,
+            "wuxing": 20
+          }
+        },
+        {
+          "text": "尝试修复灵脉",
+          "effects": {
+            "cultivation": -50,
+            "mana": -100
+          }
+        },
+        {
+          "text": "放弃此地，另寻他处",
+          "effects": {
+            "fuyuan": 50,
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_005",
+      "name": "魔道追杀",
+      "category": "危机",
+      "scene": "荒野之地",
+      "options": [
+        {
+          "text": "快速逃跑",
+          "effects": {
+            "hp": -15,
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "loot": [
+                  "qingfeng_sword"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "与魔道宗门正面交锋",
+          "effects": {
+            "hp": -30,
+            "battle": true
+          },
+          "chance": 0.6
+        },
+        {
+          "text": "寻求正道宗门庇护",
+          "effects": {
+            "sectContribution": 30,
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_006",
+      "name": "神秘诅咒",
+      "category": "危机",
+      "scene": "古老遗迹",
+      "options": [
+        {
+          "text": "深入研究，寻找解咒方法",
+          "effects": {
+            "cultivation": -100,
+            "mana": -200
+          }
+        },
+        {
+          "text": "寻找解除诅咒的宝物",
+          "effects": {
+            "spiritStones": -100,
+            "loot": [
+              "qiankun_bag"
+            ]
+          }
+        },
+        {
+          "text": "放弃遗迹，离开此地",
+          "effects": {
+            "fuyuan": 50,
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_1",
+      "name": "神秘遗迹探险",
+      "category": "奇遇",
+      "scene": "沧溟大陆古老森林",
+      "options": [
+        {
+          "text": "深入森林，寻找遗迹",
+          "effects": {
+            "spiritStones": 100
+          }
+        },
+        {
+          "text": "小心谨慎，避开险地",
+          "effects": {
+            "hp": -10
+          }
+        },
+        {
+          "text": "放弃探险，返回安全区",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_2",
+      "name": "奇遇五灵兽",
+      "category": "奇遇",
+      "scene": "沧溟大陆五灵山脉",
+      "options": [
+        {
+          "text": "与五灵兽交好，获得灵根加成",
+          "effects": {
+            "wuxing": 5
+          }
+        },
+        {
+          "text": "试图驯服五灵兽，反被袭击",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "静观其变，寻找合适时机",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_3",
+      "name": "海市蜃楼奇观",
+      "category": "奇遇",
+      "scene": "沧溟大陆无尽海域",
+      "options": [
+        {
+          "text": "探索海市蜃楼，发现宝物",
+          "effects": {
+            "loot": [
+              "qingfeng_sword",
+              "qiankun_bag"
+            ]
+          }
+        },
+        {
+          "text": "迷失在海市蜃楼中，法力消耗过大",
+          "effects": {
+            "mana": -100
+          }
+        },
+        {
+          "text": "放弃探索，返回海岸线",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_4",
+      "name": "海族争斗",
+      "category": "战斗",
+      "scene": "沧溟大陆无尽海域",
+      "options": [
+        {
+          "text": "与五灵兽交好，获得灵根加成",
+          "effects": {
+            "wuxing": 5
+          }
+        },
+        {
+          "text": "试图驯服五灵兽，反被袭击",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "静观其变，寻找合适时机",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_5",
+      "name": "海中寻宝",
+      "category": "资源",
+      "scene": "沧溟大陆无尽海域",
+      "options": [
+        {
+          "text": "在海底发现灵石矿脉",
+          "effects": {
+            "spiritStones": 500
+          }
+        },
+        {
+          "text": "遭遇海怪袭击，损失部分宝物",
+          "effects": {
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "hp": -25
+          }
+        },
+        {
+          "text": "空手而归，收获甚微",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_6",
+      "name": "宗门试炼",
+      "category": "修炼",
+      "scene": "沧溟大陆太初宗",
+      "options": [
+        {
+          "text": "通过试炼，获得宗门奖励",
+          "effects": {
+            "cultivation": 50,
+            "sectContribution": 30
+          }
+        },
+        {
+          "text": "试炼失败，受宗门惩罚",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "放弃试炼，继续闭关修炼",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_7",
+      "name": "仙缘邂逅",
+      "category": "社交",
+      "scene": "沧溟大陆灵溪镇",
+      "options": [
+        {
+          "text": "结交仙缘，获得神识提升",
+          "effects": {
+            "shenshi": 20
+          }
+        },
+        {
+          "text": "遭遇魔道中人，险些丧命",
+          "effects": {
+            "hp": -35
+          }
+        },
+        {
+          "text": "保持距离，避免麻烦",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_8",
+      "name": "灵泉沐浴",
+      "category": "修炼",
+      "scene": "沧溟大陆灵泉谷",
+      "options": [
+        {
+          "text": "沐浴灵泉，提升修为",
+          "effects": {
+            "cultivation": 30
+          }
+        },
+        {
+          "text": "灵泉枯竭，无功而返",
+          "effects": {
+            "mana": -50
+          }
+        },
+        {
+          "text": "遭遇灵泉守护者，战斗一触即发",
+          "effects": {
+            "hp": -15,
+            "battle": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_9",
+      "name": "妖兽入侵",
+      "category": "危机",
+      "scene": "沧溟大陆妖兽谷",
+      "options": [
+        {
+          "text": "组织村民抵抗，保卫家园",
+          "effects": {
+            "hp": -40,
+            "sectContribution": 50
+          }
+        },
+        {
+          "text": "闭门不出，暂避一时",
+          "effects": {
+            "hp": -5
+          }
+        },
+        {
+          "text": "趁机掠夺妖兽宝物",
+          "effects": {
+            "loot": [
+              "lingwen_bu_pao"
+            ],
+            "hp": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_cangming_10",
+      "name": "寻访仙山",
+      "category": "奇遇",
+      "scene": "沧溟大陆仙山山脉",
+      "options": [
+        {
+          "text": "寻访仙山，求得仙缘指引",
+          "effects": {
+            "fuyuan": 15
+          }
+        },
+        {
+          "text": "迷失在仙山之中，遭遇险境",
+          "effects": {
+            "hp": -30
+          }
+        },
+        {
+          "text": "放弃寻访，返回安全区",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_001",
+      "name": "遗迹探险",
+      "category": "古墟",
+      "scene": "荒凉古城遗址",
+      "options": [
+        {
+          "text": "深入遗迹",
+          "effects": {
+            "spiritStones": 100,
+            "loot": [
+              "qingfeng_sword",
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "谨慎退出",
+          "effects": {
+            "spiritStones": 20
+          }
+        },
+        {
+          "text": "原地休息",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_002",
+      "name": "幽魂寻宝",
+      "category": "古墟",
+      "scene": "幽深的古墟森林",
+      "options": [
+        {
+          "text": "追踪幽魂",
+          "effects": {
+            "loot": [
+              "qiankun_bag",
+              "yufeng_zhou"
+            ]
+          }
+        },
+        {
+          "text": "放弃追踪",
+          "effects": {
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "在森林中迷失",
+          "effects": {
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_003",
+      "name": "石碑之谜",
+      "category": "古墟",
+      "scene": "荒废的庙宇",
+      "options": [
+        {
+          "text": "破解石碑文字",
+          "effects": {
+            "cultivation": 10,
+            "loot": [
+              "lingwen_bu_pao"
+            ]
+          }
+        },
+        {
+          "text": "离开此地",
+          "effects": {
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "研究石碑",
+          "effects": {
+            "mana": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_004",
+      "name": "妖兽袭击",
+      "category": "古墟",
+      "scene": "险峻的山谷",
+      "options": [
+        {
+          "text": "与妖兽激战",
+          "effects": {
+            "battle": true,
+            "loot": [
+              "spirit_stone_mid"
+            ],
+            "hp": -30
+          }
+        },
+        {
+          "text": "尝试逃跑",
+          "effects": {
+            "hp": -15
+          }
+        },
+        {
+          "text": "躲藏起来",
+          "effects": {
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_005",
+      "name": "神秘商人",
+      "category": "古墟",
+      "scene": "古墟边缘的市集",
+      "options": [
+        {
+          "text": "与其交易",
+          "effects": {
+            "spiritStones": 100,
+            "loot": [
+              "juling_dan",
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "拒绝交易",
+          "effects": {
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "跟随商人",
+          "effects": {
+            "loot": [
+              "lingwen_bu_pao",
+              "yufeng_zhou"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_006",
+      "name": "荒漠求生",
+      "category": "古墟",
+      "scene": "无垠的荒漠",
+      "options": [
+        {
+          "text": "寻找水源",
+          "effects": {
+            "spiritStones": 70,
+            "loot": [
+              "spirit_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "休息片刻",
+          "effects": {
+            "hp": -10,
+            "mana": -10
+          }
+        },
+        {
+          "text": "冒险深入",
+          "effects": {
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "hp": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_007",
+      "name": "古老遗迹的守护者",
+      "category": "古墟",
+      "scene": "古老的宫殿",
+      "options": [
+        {
+          "text": "与守护者战斗",
+          "effects": {
+            "battle": true,
+            "loot": [
+              "qiankun_bag"
+            ],
+            "hp": -40
+          }
+        },
+        {
+          "text": "与守护者对话",
+          "effects": {
+            "spiritStones": 80,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        },
+        {
+          "text": "放弃遗迹",
+          "effects": {
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_008",
+      "name": "古墟的传说",
+      "category": "古墟",
+      "scene": "古墟中心的老酒馆",
+      "options": [
+        {
+          "text": "倾听传说",
+          "effects": {
+            "mana": 30,
+            "fuyuan": 10
+          }
+        },
+        {
+          "text": "询问信息",
+          "effects": {
+            "spiritStones": 50
+          }
+        },
+        {
+          "text": "离开酒馆",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_009",
+      "name": "废弃矿洞的探险",
+      "category": "古墟",
+      "scene": "荒废的矿洞",
+      "options": [
+        {
+          "text": "深入矿洞",
+          "effects": {
+            "loot": [
+              "zhuji_dan",
+              "yufeng_zhou"
+            ],
+            "hp": -20
+          }
+        },
+        {
+          "text": "放弃探险",
+          "effects": {
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "在洞口休息",
+          "effects": {
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_古墟_010",
+      "name": "古墟的奇花异草",
+      "category": "古墟",
+      "scene": "荒野中的奇花异草丛",
+      "options": [
+        {
+          "text": "采摘草药",
+          "effects": {
+            "loot": [
+              "juling_dan",
+              "lingwen_bu_pao"
+            ],
+            "spiritStones": 80
+          }
+        },
+        {
+          "text": "仔细观察",
+          "effects": {
+            "mana": 20
+          }
+        },
+        {
+          "text": "绕道而行",
+          "effects": {
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_1",
+      "name": "发现灵石矿脉",
+      "category": "资源",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "开挖矿藏，尽取灵石",
+          "effects": {
+            "spiritStones": 30,
+            "hp": -15
+          }
+        },
+        {
+          "text": "上报宗门，换取贡献",
+          "effects": {
+            "sectContribution": 30
+          }
+        },
+        {
+          "text": "布下禁制留待日后",
+          "effects": {
+            "fuyuan": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_2",
+      "name": "食矿妖兽",
+      "category": "战斗",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "迎战妖兽",
+          "effects": {
+            "spiritStones": 25
+          },
+          "battle": true
+        },
+        {
+          "text": "退避三舍",
+          "effects": {
+            "hp": -10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_3",
+      "name": "废弃矿洞坍塌",
+      "category": "危机",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "强行突破险路",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 20
+          }
+        },
+        {
+          "text": "绕路而行",
+          "effects": {
+            "spiritStones": -5,
+            "fuyuan": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_4",
+      "name": "矿脉之争",
+      "category": "危机",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "出手抢夺矿脉",
+          "effects": {
+            "spiritStones": 35,
+            "hp": -15
+          },
+          "battle": true
+        },
+        {
+          "text": "与之讲和分一杯羹",
+          "effects": {
+            "spiritStones": 12
+          }
+        },
+        {
+          "text": "拱手相让",
+          "effects": {
+            "shenshi": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_5",
+      "name": "矿灵显形",
+      "category": "奇遇",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "与矿灵缔结契约",
+          "effects": {
+            "fuyuan": 3,
+            "spiritStones": 15
+          }
+        },
+        {
+          "text": "敬而远之",
+          "effects": {
+            "wuxing": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_mine_6",
+      "name": "灵石矿坊",
+      "category": "坊市",
+      "scene": "灵石矿脉",
+      "options": [
+        {
+          "text": "收购原矿",
+          "effects": {
+            "spiritStones": -20,
+            "loot": [
+              "lingshi_kuang"
+            ]
+          }
+        },
+        {
+          "text": "出售矿石",
+          "effects": {
+            "spiritStones": 25
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_7",
+      "name": "妖魔降世",
+      "category": "战斗",
+      "scene": "中元大陆边缘",
+      "options": [
+        {
+          "text": "抵御妖魔入侵",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 50
+          },
+          "battle": true
+        },
+        {
+          "text": "使用符咒驱散",
+          "effects": {
+            "hp": -15,
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "寻求外援",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_8",
+      "name": "海岛激战",
+      "category": "战斗",
+      "scene": "中元大陆海岛",
+      "options": [
+        {
+          "text": "正面交锋",
+          "effects": {
+            "hp": -30,
+            "spiritStones": 60
+          },
+          "battle": true
+        },
+        {
+          "text": "利用潮汐变化",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "寻找逃生船只",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_9",
+      "name": "沙漠试炼",
+      "category": "战斗",
+      "scene": "中元大陆沙漠",
+      "options": [
+        {
+          "text": "挑战沙漠巨兽",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 50
+          },
+          "battle": true
+        },
+        {
+          "text": "利用沙尘暴掩护",
+          "effects": {
+            "hp": -15,
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "寻找绿洲休息",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_10",
+      "name": "瀑布对决",
+      "category": "战斗",
+      "scene": "中元大陆瀑布",
+      "options": [
+        {
+          "text": "在瀑布中交手",
+          "effects": {
+            "hp": -30,
+            "spiritStones": 60
+          },
+          "battle": true
+        },
+        {
+          "text": "利用水流干扰敌人",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "寻找安全地带",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_11",
+      "name": "雪域激斗",
+      "category": "战斗",
+      "scene": "中元大陆雪域",
+      "options": [
+        {
+          "text": "挑战雪域冰魔",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 50
+          },
+          "battle": true
+        },
+        {
+          "text": "利用冰雪之力",
+          "effects": {
+            "hp": -15,
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "寻找温暖之地",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_12",
+      "name": "火山探险",
+      "category": "战斗",
+      "scene": "中元大陆火山",
+      "options": [
+        {
+          "text": "深入火山内部",
+          "effects": {
+            "hp": -30,
+            "spiritStones": 60
+          },
+          "battle": true
+        },
+        {
+          "text": "利用火山喷发",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "寻找火山口逃生",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_13",
+      "name": "古战场遗迹",
+      "category": "战斗",
+      "scene": "中元大陆古战场",
+      "options": [
+        {
+          "text": "探索遗迹",
+          "effects": {
+            "hp": -25,
+            "spiritStones": 50
+          },
+          "battle": true
+        },
+        {
+          "text": "利用遗迹机关",
+          "effects": {
+            "hp": -15,
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "放弃遗迹返回",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_14",
+      "name": "密林陷阱",
+      "category": "战斗",
+      "scene": "中元大陆密林",
+      "options": [
+        {
+          "text": "小心前进",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          },
+          "battle": true
+        },
+        {
+          "text": "布下灵阵防护",
+          "effects": {
+            "hp": -15,
+            "spiritStones": 30
+          }
+        },
+        {
+          "text": "绕道而行",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_15",
+      "name": "妖兽领地",
+      "category": "战斗",
+      "scene": "中元大陆妖兽领地",
+      "options": [
+        {
+          "text": "挑战妖兽首领",
+          "effects": {
+            "hp": -30,
+            "spiritStones": 60
+          },
+          "battle": true
+        },
+        {
+          "text": "利用领地优势",
+          "effects": {
+            "hp": -20,
+            "spiritStones": 40
+          }
+        },
+        {
+          "text": "绕过领地返回",
+          "effects": {
+            "hp": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_5",
+      "name": "药园丰收",
+      "category": "资源",
+      "scene": "中元大陆的药王谷",
+      "options": [
+        {
+          "text": "收获灵草",
+          "effects": {
+            "spiritStones": 120,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        },
+        {
+          "text": "留下等待下一次丰收",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_6",
+      "name": "神秘湖泊",
+      "category": "资源",
+      "scene": "中元大陆的碧波湖畔",
+      "options": [
+        {
+          "text": "探寻湖底宝物",
+          "effects": {
+            "spiritStones": 250,
+            "loot": [
+              "qingfeng_sword"
+            ]
+          }
+        },
+        {
+          "text": "在湖边修炼",
+          "effects": {
+            "cultivation": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_7",
+      "name": "灵泉涌动",
+      "category": "资源",
+      "scene": "中元大陆的灵泉山脉",
+      "options": [
+        {
+          "text": "汲取灵泉",
+          "effects": {
+            "spiritStones": 180,
+            "mana": 200
+          }
+        },
+        {
+          "text": "继续赶路",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_8",
+      "name": "古树灵果",
+      "category": "资源",
+      "scene": "中元大陆的古老森林",
+      "options": [
+        {
+          "text": "采摘灵果",
+          "effects": {
+            "spiritStones": 90,
+            "wuxing": 10
+          }
+        },
+        {
+          "text": "继续在森林中探索",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_9",
+      "name": "奇花异草",
+      "category": "资源",
+      "scene": "中元大陆的百花谷",
+      "options": [
+        {
+          "text": "采集奇花异草",
+          "effects": {
+            "spiritStones": 100,
+            "loot": [
+              "zhuji_dan"
+            ]
+          }
+        },
+        {
+          "text": "观察植物生长",
+          "effects": {
+            "fuyuan": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_10",
+      "name": "灵脉发现",
+      "category": "资源",
+      "scene": "中元大陆的神秘山谷",
+      "options": [
+        {
+          "text": "深入挖掘",
+          "effects": {
+            "spiritStones": 300,
+            "loot": [
+              "yufeng_zhou"
+            ]
+          }
+        },
+        {
+          "text": "放弃挖掘",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_11",
+      "name": "灵矿开采",
+      "category": "资源",
+      "scene": "中元大陆的灵矿山脉",
+      "options": [
+        {
+          "text": "开采灵矿",
+          "effects": {
+            "spiritStones": 400,
+            "loot": [
+              "spirit_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "暂时放弃开采",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_12",
+      "name": "灵兽山脉",
+      "category": "资源",
+      "scene": "中元大陆的灵兽山脉",
+      "options": [
+        {
+          "text": "捕捉灵兽",
+          "effects": {
+            "spiritStones": 220,
+            "loot": [
+              "qingfeng_sword"
+            ]
+          }
+        },
+        {
+          "text": "观察灵兽",
+          "effects": {
+            "shenshi": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_13",
+      "name": "灵石矿脉",
+      "category": "资源",
+      "scene": "中元大陆的灵石矿脉",
+      "options": [
+        {
+          "text": "开采灵石",
+          "effects": {
+            "spiritStones": 500,
+            "loot": [
+              "qiankun_bag"
+            ]
+          }
+        },
+        {
+          "text": "放弃开采",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_14",
+      "name": "灵泉瀑布",
+      "category": "资源",
+      "scene": "中元大陆的灵泉瀑布",
+      "options": [
+        {
+          "text": "沐浴灵泉",
+          "effects": {
+            "spiritStones": 180,
+            "mana": 300
+          }
+        },
+        {
+          "text": "在瀑布旁修炼",
+          "effects": {
+            "cultivation": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_resource_15",
+      "name": "灵草生长地",
+      "category": "资源",
+      "scene": "中元大陆的灵草生长地",
+      "options": [
+        {
+          "text": "采集灵草",
+          "effects": {
+            "spiritStones": 110,
+            "loot": [
+              "juling_dan"
+            ]
+          }
+        },
+        {
+          "text": "研究灵草生长规律",
+          "effects": {
+            "fuyuan": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_001",
+      "name": "神秘病毒蔓延",
+      "category": "危机",
+      "scene": "中元大陆某村庄",
+      "options": [
+        {
+          "text": "立刻撤离村庄",
+          "effects": {
+            "spiritStones": 50
+          }
+        },
+        {
+          "text": "寻求医宗援助",
+          "effects": {
+            "sectContribution": 100,
+            "hp": -30
+          }
+        },
+        {
+          "text": "亲自调查原因",
+          "effects": {
+            "wuxing": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_002",
+      "name": "兽潮来袭",
+      "category": "危机",
+      "scene": "中元大陆北境森林",
+      "options": [
+        {
+          "text": "聚集力量共同应对",
+          "effects": {
+            "hp": -10
+          }
+        },
+        {
+          "text": "以逸待劳，暗中设伏",
+          "effects": {
+            "spiritStones": 100,
+            "random": {
+              "chance": 0.8,
+              "effects": {
+                "loot": [
+                  "qiankun_bag"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "尝试用阵法驱散",
+          "effects": {
+            "mana": -20
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_003",
+      "name": "山岳地震",
+      "category": "危机",
+      "scene": "中元大陆某山脉",
+      "options": [
+        {
+          "text": "快速前往避险",
+          "effects": {
+            "hp": -5,
+            "spiritStones": 80
+          }
+        },
+        {
+          "text": "协助宗门搭建避难所",
+          "effects": {
+            "sectContribution": 120
+          }
+        },
+        {
+          "text": "研究地震原因，寻求解决办法",
+          "effects": {
+            "fuyuan": 50,
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "loot": [
+                  "zhuji_dan"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_004",
+      "name": "妖兽侵袭",
+      "category": "危机",
+      "scene": "中元大陆南域妖兽山脉",
+      "options": [
+        {
+          "text": "与同伴合力，设法击退妖兽",
+          "effects": {
+            "hp": -25
+          }
+        },
+        {
+          "text": "设置禁制阵法，封印妖兽",
+          "effects": {
+            "mana": -50,
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "loot": [
+                  "spirit_stone_mid"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "联络妖兽族首领寻求和解",
+          "effects": {
+            "spiritStones": 50,
+            "fuyuan": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_005",
+      "name": "神秘异象",
+      "category": "危机",
+      "scene": "中元大陆中央禁地",
+      "options": [
+        {
+          "text": "静观其变，寻找机会解决",
+          "effects": {
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "loot": [
+                  "juling_dan"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "尝试进入研究异象",
+          "effects": {
+            "hp": -15,
+            "random": {
+              "chance": 0.8,
+              "effects": {
+                "loot": [
+                  "lingwen_bu_pao"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "立即上报宗门寻求帮助",
+          "effects": {
+            "sectContribution": 200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_006",
+      "name": "邪术扩散",
+      "category": "危机",
+      "scene": "中元大陆东海岸",
+      "options": [
+        {
+          "text": "组织修士对抗邪术",
+          "effects": {
+            "hp": -20
+          }
+        },
+        {
+          "text": "寻求正道宗门支持",
+          "effects": {
+            "sectContribution": 150
+          }
+        },
+        {
+          "text": "自行钻研破解邪术",
+          "effects": {
+            "wuxing": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_007",
+      "name": "水源枯竭",
+      "category": "危机",
+      "scene": "中元大陆西海岸山脉",
+      "options": [
+        {
+          "text": "寻找水源地",
+          "effects": {
+            "hp": -5
+          }
+        },
+        {
+          "text": "修建水利设施",
+          "effects": {
+            "mana": -30,
+            "spiritStones": 200
+          }
+        },
+        {
+          "text": "联络周边势力求助",
+          "effects": {
+            "sectContribution": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_008",
+      "name": "瘟疫蔓延",
+      "category": "危机",
+      "scene": "中元大陆中部平原",
+      "options": [
+        {
+          "text": "设立临时隔离区",
+          "effects": {
+            "sectContribution": 100,
+            "hp": -40
+          }
+        },
+        {
+          "text": "寻求医术高手救治",
+          "effects": {
+            "loot": [
+              "spiring_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "修炼五行八卦之术抵御瘟疫",
+          "effects": {
+            "wuxing": 30,
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "loot": [
+                  "yufeng_zhou"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_009",
+      "name": "鬼怪出没",
+      "category": "危机",
+      "scene": "中元大陆东北域阴森山谷",
+      "options": [
+        {
+          "text": "与鬼怪搏斗",
+          "effects": {
+            "hp": -35
+          }
+        },
+        {
+          "text": "设置符咒阵法驱除鬼怪",
+          "effects": {
+            "mana": -60,
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "loot": [
+                  "qingfeng_sword"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "请教高人学习制服鬼怪之术",
+          "effects": {
+            "fuyuan": 40,
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "loot": [
+                  "lingwen_bu_pao"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_010",
+      "name": "地火爆发",
+      "category": "危机",
+      "scene": "中元大陆南方火山群",
+      "options": [
+        {
+          "text": "搭建防火屏障",
+          "effects": {
+            "spiritStones": 100
+          }
+        },
+        {
+          "text": "与火灵兽交流寻求帮助",
+          "effects": {
+            "loot": [
+              "spiring_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "前往地火核心探寻秘密",
+          "effects": {
+            "hp": -50
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_011",
+      "name": "山洪暴发",
+      "category": "危机",
+      "scene": "中元大陆西部山区",
+      "options": [
+        {
+          "text": "救援被困村民",
+          "effects": {
+            "hp": -15
+          }
+        },
+        {
+          "text": "协助宗门加固堤坝",
+          "effects": {
+            "mana": -40,
+            "spiritStones": 150
+          }
+        },
+        {
+          "text": "研究山洪成因，提前预防",
+          "effects": {
+            "wuxing": 20,
+            "fuyuan": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_012",
+      "name": "龙卷风袭击",
+      "category": "危机",
+      "scene": "中元大陆东部沿海",
+      "options": [
+        {
+          "text": "搭建临时避难所",
+          "effects": {
+            "sectContribution": 100,
+            "spiritStones": 80
+          }
+        },
+        {
+          "text": "施展五行阵法抵御风势",
+          "effects": {
+            "mana": -50,
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "loot": [
+                  "lingwen_bu_pao"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "text": "研究龙卷风原理，避免再次发生",
+          "effects": {
+            "fuyuan": 20,
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "loot": [
+                  "yufeng_zhou"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_013",
+      "name": "冰封之境",
+      "category": "危机",
+      "scene": "中元大陆北方冰原",
+      "options": [
+        {
+          "text": "突破冰层寻找出路",
+          "effects": {
+            "hp": -25
+          }
+        },
+        {
+          "text": "与冰原灵兽交流学习抗寒之法",
+          "effects": {
+            "loot": [
+              "spiring_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "建立避难所，等待冰雪融化",
+          "effects": {
+            "sectContribution": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_014",
+      "name": "地震山崩",
+      "category": "危机",
+      "scene": "中元大陆中北部山脉",
+      "options": [
+        {
+          "text": "组织人力清理道路",
+          "effects": {
+            "mana": -30,
+            "spiritStones": 150
+          }
+        },
+        {
+          "text": "设置警告标志，警示村民",
+          "effects": {
+            "sectContribution": 120
+          }
+        },
+        {
+          "text": "寻找山崩原因，寻求解决方法",
+          "effects": {
+            "fuyuan": 40,
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "loot": [
+                  "qingfeng_sword"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cr_中元危机_015",
+      "name": "荒漠沙尘暴",
+      "category": "危机",
+      "scene": "中元大陆西部沙漠",
+      "options": [
+        {
+          "text": "设置沙尘暴预警",
+          "effects": {
+            "sectContribution": 100
+          }
+        },
+        {
+          "text": "与沙漠灵兽交流学习抗沙之法",
+          "effects": {
+            "loot": [
+              "spiring_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "组织村民迁移至安全地区",
+          "effects": {
+            "spiritStones": 100
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_001",
+      "name": "灵泉悟道",
+      "category": "修炼",
+      "scene": "沧溟大陆灵泉之地",
+      "options": [
+        {
+          "text": "静心修炼",
+          "effects": {
+            "cultivation": 10,
+            "mana": 20
+          }
+        },
+        {
+          "text": "汲取灵泉",
+          "effects": {
+            "spiritStones": 5
+          }
+        },
+        {
+          "text": "感悟自然",
+          "effects": {
+            "wuxing": 5,
+            "fuyuan": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_002",
+      "name": "古树修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆古老灵树丛",
+      "options": [
+        {
+          "text": "吸收灵气",
+          "effects": {
+            "cultivation": 8,
+            "hp": 5
+          }
+        },
+        {
+          "text": "冥想静修",
+          "effects": {
+            "mana": 25,
+            "fuyuan": 2
+          }
+        },
+        {
+          "text": "灵树试炼",
+          "effects": {
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "cultivation": 15
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_003",
+      "name": "灵兽山脉闭关",
+      "category": "修炼",
+      "scene": "沧溟大陆灵兽山脉",
+      "options": [
+        {
+          "text": "灵兽相伴修炼",
+          "effects": {
+            "cultivation": 12,
+            "hp": 10
+          }
+        },
+        {
+          "text": "捕捉灵兽",
+          "effects": {
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 30
+              }
+            }
+          }
+        },
+        {
+          "text": "探索秘境",
+          "effects": {
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "shenshi": 10
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_004",
+      "name": "潮汐修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆海岸线",
+      "options": [
+        {
+          "text": "海潮洗练",
+          "effects": {
+            "cultivation": 7,
+            "mana": 15
+          }
+        },
+        {
+          "text": "潮汐之力",
+          "effects": {
+            "random": {
+              "chance": 0.8,
+              "effects": {
+                "wuxing": 8
+              }
+            }
+          }
+        },
+        {
+          "text": "寻宝探海",
+          "effects": {
+            "loot": [
+              "qiankun_bag"
+            ],
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "spiritStones": 20
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_005",
+      "name": "灵草园养灵",
+      "category": "修炼",
+      "scene": "沧溟大陆灵草园",
+      "options": [
+        {
+          "text": "采撷灵草",
+          "effects": {
+            "loot": [
+              "zhuji_dan",
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "spiritStones": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "灵草炼体",
+          "effects": {
+            "cultivation": 10,
+            "hp": 8
+          }
+        },
+        {
+          "text": "灵草感悟",
+          "effects": {
+            "wuxing": 6,
+            "fuyuan": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_006",
+      "name": "风洞冥想",
+      "category": "修炼",
+      "scene": "沧溟大陆风洞之地",
+      "options": [
+        {
+          "text": "风之炼体",
+          "effects": {
+            "cultivation": 9,
+            "hp": 7
+          }
+        },
+        {
+          "text": "风之感悟",
+          "effects": {
+            "wuxing": 7,
+            "mana": 20
+          }
+        },
+        {
+          "text": "风洞试炼",
+          "effects": {
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "cultivation": 14
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_007",
+      "name": "星空修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆星空之下",
+      "options": [
+        {
+          "text": "星力洗练",
+          "effects": {
+            "cultivation": 11,
+            "mana": 25
+          }
+        },
+        {
+          "text": "星图感悟",
+          "effects": {
+            "wuxing": 8,
+            "shenshi": 5
+          }
+        },
+        {
+          "text": "星陨寻宝",
+          "effects": {
+            "loot": [
+              "spirit_stone_mid"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_008",
+      "name": "幽谷冥想",
+      "category": "修炼",
+      "scene": "沧溟大陆幽谷",
+      "options": [
+        {
+          "text": "幽谷静修",
+          "effects": {
+            "cultivation": 12,
+            "mana": 20
+          }
+        },
+        {
+          "text": "幽谷灵泉",
+          "effects": {
+            "spiritStones": 5
+          }
+        },
+        {
+          "text": "幽谷试炼",
+          "effects": {
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "cultivation": 15
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_009",
+      "name": "灵石矿脉修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆灵石矿脉",
+      "options": [
+        {
+          "text": "灵石吸收",
+          "effects": {
+            "cultivation": 8,
+            "hp": 5
+          }
+        },
+        {
+          "text": "灵石炼化",
+          "effects": {
+            "mana": 25,
+            "fuyuan": 2
+          }
+        },
+        {
+          "text": "矿脉寻宝",
+          "effects": {
+            "loot": [
+              "lingwen_bu_pao"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_010",
+      "name": "云海漂浮",
+      "category": "修炼",
+      "scene": "沧溟大陆云海之上",
+      "options": [
+        {
+          "text": "云海凝气",
+          "effects": {
+            "cultivation": 10,
+            "mana": 20
+          }
+        },
+        {
+          "text": "云海灵泉",
+          "effects": {
+            "spiritStones": 5
+          }
+        },
+        {
+          "text": "云海试炼",
+          "effects": {
+            "random": {
+              "chance": 0.6,
+              "effects": {
+                "wuxing": 10
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_011",
+      "name": "火山煅体",
+      "category": "修炼",
+      "scene": "沧溟大陆火山之地",
+      "options": [
+        {
+          "text": "火山炼体",
+          "effects": {
+            "cultivation": 9,
+            "hp": 7
+          }
+        },
+        {
+          "text": "火山灵泉",
+          "effects": {
+            "wuxing": 7,
+            "mana": 20
+          }
+        },
+        {
+          "text": "火山寻宝",
+          "effects": {
+            "loot": [
+              "yufeng_zhou"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_012",
+      "name": "仙岛修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆附近仙岛",
+      "options": [
+        {
+          "text": "仙岛灵气",
+          "effects": {
+            "cultivation": 11,
+            "hp": 8
+          }
+        },
+        {
+          "text": "仙岛丹药",
+          "effects": {
+            "loot": [
+              "zhuji_dan",
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "spiritStones": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "仙岛感悟",
+          "effects": {
+            "wuxing": 8,
+            "fuyuan": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_013",
+      "name": "灵湖修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆灵湖之地",
+      "options": [
+        {
+          "text": "灵湖静修",
+          "effects": {
+            "cultivation": 12,
+            "mana": 20
+          }
+        },
+        {
+          "text": "灵湖灵泉",
+          "effects": {
+            "spiritStones": 5
+          }
+        },
+        {
+          "text": "灵湖试炼",
+          "effects": {
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "cultivation": 15
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_014",
+      "name": "古阵修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆古老阵法之地",
+      "options": [
+        {
+          "text": "阵法炼体",
+          "effects": {
+            "cultivation": 8,
+            "hp": 5
+          }
+        },
+        {
+          "text": "阵法感悟",
+          "effects": {
+            "wuxing": 7,
+            "mana": 20
+          }
+        },
+        {
+          "text": "阵法寻宝",
+          "effects": {
+            "loot": [
+              "lingwen_bu_pao"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_修炼_015",
+      "name": "灵石山洞修炼",
+      "category": "修炼",
+      "scene": "沧溟大陆灵石山洞",
+      "options": [
+        {
+          "text": "山洞灵气",
+          "effects": {
+            "cultivation": 10,
+            "hp": 7
+          }
+        },
+        {
+          "text": "山洞丹药",
+          "effects": {
+            "loot": [
+              "zhuji_dan",
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.7,
+              "effects": {
+                "spiritStones": 10
+              }
+            }
+          }
+        },
+        {
+          "text": "山洞感悟",
+          "effects": {
+            "wuxing": 8,
+            "fuyuan": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_006",
+      "name": "灵气波动",
+      "category": "奇遇",
+      "scene": "沧溟高原",
+      "options": [
+        {
+          "text": "追踪灵气源",
+          "effects": {
+            "loot": [
+              "zhuji_dan"
+            ],
+            "random": {
+              "chance": 0.3,
+              "effects": {
+                "spiritStones": 200
+              }
+            }
+          }
+        },
+        {
+          "text": "静心感悟",
+          "effects": {
+            "wuxing": 10
+          }
+        },
+        {
+          "text": "忽略灵气波动",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_007",
+      "name": "海岛寻宝",
+      "category": "奇遇",
+      "scene": "沧溟神秘海岛",
+      "options": [
+        {
+          "text": "深入岛屿",
+          "effects": {
+            "loot": [
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "spiritStones": 250
+              }
+            }
+          }
+        },
+        {
+          "text": "沿海岸线探索",
+          "effects": {
+            "hp": -5,
+            "loot": [
+              "spirit_stone_mid"
+            ]
+          }
+        },
+        {
+          "text": "返回岸边",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_008",
+      "name": "奇花异草",
+      "category": "奇遇",
+      "scene": "沧溟花海",
+      "options": [
+        {
+          "text": "采摘花蕊",
+          "effects": {
+            "loot": [
+              "yufeng_zhou"
+            ],
+            "random": {
+              "chance": 0.2,
+              "effects": {
+                "spiritStones": 100
+              }
+            }
+          }
+        },
+        {
+          "text": "研究花朵特性",
+          "effects": {
+            "wuxing": 5
+          }
+        },
+        {
+          "text": "观赏后离开",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_009",
+      "name": "神秘洞穴",
+      "category": "奇遇",
+      "scene": "沧溟山脉",
+      "options": [
+        {
+          "text": "探险洞穴",
+          "effects": {
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "random": {
+              "chance": 0.3,
+              "effects": {
+                "spiritStones": 150
+              }
+            }
+          }
+        },
+        {
+          "text": "在洞口修炼",
+          "effects": {
+            "mana": 40
+          }
+        },
+        {
+          "text": "放弃探险",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_010",
+      "name": "海螺鸣音",
+      "category": "奇遇",
+      "scene": "沧溟海域",
+      "options": [
+        {
+          "text": "跟随海螺鸣音",
+          "effects": {
+            "loot": [
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 200
+              }
+            }
+          }
+        },
+        {
+          "text": "在海上静坐",
+          "effects": {
+            "mana": 30
+          }
+        },
+        {
+          "text": "返回岸边",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_011",
+      "name": "灵兽相伴",
+      "category": "奇遇",
+      "scene": "沧溟森林",
+      "options": [
+        {
+          "text": "与灵兽交流",
+          "effects": {
+            "loot": [
+              "zhuji_dan"
+            ],
+            "random": {
+              "chance": 0.4,
+              "effects": {
+                "spiritStones": 150
+              }
+            }
+          }
+        },
+        {
+          "text": "静观灵兽习性",
+          "effects": {
+            "wuxing": 10
+          }
+        },
+        {
+          "text": "独自离开",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_012",
+      "name": "星空异象",
+      "category": "奇遇",
+      "scene": "沧溟夜空",
+      "options": [
+        {
+          "text": "观察星空",
+          "effects": {
+            "mana": 40
+          }
+        },
+        {
+          "text": "寻找异象来源",
+          "effects": {
+            "loot": [
+              "yufeng_zhou"
+            ],
+            "random": {
+              "chance": 0.2,
+              "effects": {
+                "spiritStones": 100
+              }
+            }
+          }
+        },
+        {
+          "text": "忽略星空异象",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_013",
+      "name": "神秘遗迹",
+      "category": "奇遇",
+      "scene": "沧溟遗迹",
+      "options": [
+        {
+          "text": "挖掘遗迹",
+          "effects": {
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "random": {
+              "chance": 0.3,
+              "effects": {
+                "spiritStones": 150
+              }
+            }
+          }
+        },
+        {
+          "text": "研究遗迹历史",
+          "effects": {
+            "wuxing": 5
+          }
+        },
+        {
+          "text": "放弃挖掘",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_014",
+      "name": "灵草生长地",
+      "category": "奇遇",
+      "scene": "沧溟灵草地",
+      "options": [
+        {
+          "text": "采摘灵草",
+          "effects": {
+            "loot": [
+              "juling_dan"
+            ],
+            "random": {
+              "chance": 0.5,
+              "effects": {
+                "spiritStones": 200
+              }
+            }
+          }
+        },
+        {
+          "text": "研究灵草特性",
+          "effects": {
+            "wuxing": 10
+          }
+        },
+        {
+          "text": "继续前行",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_odd_015",
+      "name": "沧溟海族传说",
+      "category": "奇遇",
+      "scene": "沧溟海族村落",
+      "options": [
+        {
+          "text": "询问海族传说",
+          "effects": {
+            "loot": [
+              "yufeng_zhou"
+            ],
+            "random": {
+              "chance": 0.3,
+              "effects": {
+                "spiritStones": 150
+              }
+            }
+          }
+        },
+        {
+          "text": "与海族交涉",
+          "effects": {
+            "random": {
+              "chance": 0.2,
+              "effects": {
+                "spiritStones": 100
+              }
+            }
+          }
+        },
+        {
+          "text": "离开海族村落",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_01",
+      "name": "中元大陆秘境伏兵",
+      "category": "战斗",
+      "scene": "中元大陆迷雾森林",
+      "options": [
+        {
+          "text": "小心应对",
+          "effects": {
+            "hp": -20,
+            "cultivation": 5,
+            "spiritStones": 30,
+            "sectContribution": 10
+          }
+        },
+        {
+          "text": "硬闯过去",
+          "effects": {
+            "battle": true,
+            "hp": -50,
+            "spiritStones": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_02",
+      "name": "中元大陆山野之息",
+      "category": "战斗",
+      "scene": "中元大陆苍茫山脉",
+      "options": [
+        {
+          "text": "寻找隐秘路线绕行",
+          "effects": {
+            "hp": -10,
+            "cultivation": 3
+          }
+        },
+        {
+          "text": "直接通过",
+          "effects": {
+            "battle": true,
+            "hp": -40,
+            "spiritStones": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_03",
+      "name": "中元大陆古战场之谜",
+      "category": "战斗",
+      "scene": "中元大陆废墟平原",
+      "options": [
+        {
+          "text": "探索遗迹",
+          "effects": {
+            "hp": -15,
+            "loot": [
+              "qingfeng_sword"
+            ],
+            "cultivation": 4,
+            "spiritStones": 20
+          }
+        },
+        {
+          "text": "快速离开",
+          "effects": {}
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_04",
+      "name": "中元大陆沼泽之恶",
+      "category": "战斗",
+      "scene": "中元大陆赤水沼泽",
+      "options": [
+        {
+          "text": "小心前进",
+          "effects": {
+            "hp": -25,
+            "cultivation": 7
+          }
+        },
+        {
+          "text": "直面敌人",
+          "effects": {
+            "battle": true,
+            "loot": [
+              "zhuji_dan"
+            ],
+            "spiritStones": 60,
+            "hp": -45
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_05",
+      "name": "中元大陆峡谷激战",
+      "category": "战斗",
+      "scene": "中元大陆幽风峡谷",
+      "options": [
+        {
+          "text": "寻找高地制高点",
+          "effects": {
+            "hp": -10,
+            "cultivation": 6
+          }
+        },
+        {
+          "text": "硬拼到底",
+          "effects": {
+            "battle": true,
+            "hp": -55,
+            "spiritStones": 70
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_06",
+      "name": "中元大陆密林猎杀",
+      "category": "战斗",
+      "scene": "中元大陆幽暗森林",
+      "options": [
+        {
+          "text": "静待敌人现身",
+          "effects": {
+            "hp": -25,
+            "cultivation": 8,
+            "loot": [
+              "yufeng_zhou"
+            ]
+          }
+        },
+        {
+          "text": "主动出击",
+          "effects": {
+            "battle": true,
+            "hp": -30,
+            "spiritStones": 45
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_07",
+      "name": "中元大陆激流险滩",
+      "category": "战斗",
+      "scene": "中元大陆湍急河流",
+      "options": [
+        {
+          "text": "利用船只渡河",
+          "effects": {
+            "hp": -15
+          }
+        },
+        {
+          "text": "徒手涉水",
+          "effects": {
+            "battle": true,
+            "hp": -60,
+            "spiritStones": 80
+          }
+        }
+      ]
+    },
+    {
+      "id": "ev_battle_08",
+      "name": "中元大陆天际之斗",
+      "category": "战斗",
+      "scene": "中元大陆高空岩壁",
+      "options": [
+        {
+          "text": "利用环境优势",
+          "effects": {
+            "hp": -25,
+            "cultivation": 9
+          }
+        },
+        {
+          "text": "冒险跳跃",
+          "effects": {
+            "battle": true,
+            "hp": -70,
+            "spiritStones": 65
+          }
+        }
+      ]
+    }
+  ]
+}
